@@ -5,7 +5,7 @@ author:
   email: "nulldoot2k@proton.me"
   url: "http://datv.nulldoot2k.xyz"
 
-baseurl: "/"
+baseurl: "master"
 
 source: .
 destination: ./_site
