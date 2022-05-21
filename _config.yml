@@ -3,7 +3,7 @@ description: "A Jekyll Blog Theme For Hackers"
 author:
   name: "MoonKnight"
   email: "nulldoot2k@proton.me"
-  url: ""
+  url: "https://datv.nulldoot2k.xyz"
 
 baseurl: "/"
 
@@ -14,8 +14,7 @@ paginate: 1
 paginate_path: /page/:num/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -28,5 +27,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "NullDoot"
-year : "2022"
+owner: "NullDoot"
+year: "2022"
