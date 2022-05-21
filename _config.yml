@@ -3,9 +3,9 @@ description: "A Jekyll Blog Theme For Hackers"
 author:
   name: "MoonKnight"
   email: "nulldoot2k@proton.me"
-  url: "https://moonknight.host.bsdforall.org"
+  url: ""
 
-baseurl: /
+baseurl: /master
 
 source: .
 destination: ./_site
