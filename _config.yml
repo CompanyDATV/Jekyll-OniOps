@@ -1,0 +1,32 @@
+title: Hacker-Blog
+description: "A Jekyll Blog Theme For Hackers"
+author:
+  name: "MoonKnight"
+  email: "nulldoot2k@proton.me"
+  url: "https://moonknight.host.bsdforall.org"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 1
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "NullDoot"
+year : "2022"
