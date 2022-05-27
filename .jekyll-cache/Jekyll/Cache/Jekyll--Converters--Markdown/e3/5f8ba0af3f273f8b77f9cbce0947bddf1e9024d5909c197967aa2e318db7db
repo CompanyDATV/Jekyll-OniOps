@@ -1,0 +1,10 @@
+I"�<p>Today we will see how to create a simple DevOps project.
+Here we will use a JAVA development project for DevOps system building purposes, cicd with jenkins.
+What is DevOps?. Let’s see a real-time scenario. Where do we need DevOps?. Let’s say you are working on a JAVA project.
+We have 3 servers. Development dev, test - UAT (User Acceptance Testing) and product - Production server.
+Many developers work on the project. The developers will push their code to the development server.
+If everything is fine, then the code is passed to the UAT server. If the UAT passes the test, then the code is moved to the final production server.
+All steps are done manually only. Every time we have to manually move the code from one server to another with dependent libraries manually.
+Everything is a manual process. It will take more time.
+DevOps is a process and it includes many tools to automate the process and it is used to ease the work of developer and operations team.</p>
+:ET
