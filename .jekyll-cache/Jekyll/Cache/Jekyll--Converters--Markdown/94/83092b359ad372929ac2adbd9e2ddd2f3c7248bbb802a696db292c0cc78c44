@@ -1,8 +1,8 @@
-I"<p>After a long time in development neovim 0.5 was finally released as a stable version.
+I"ö<p>After a long time in development neovim 0.5 was finally released as a stable version.
 Among the new exciting features we have better lua support and the promise of a stable api to create our configuration using this language.
 So today Iâ€™m going to share with you everything I learned while I was migrating my own configuration from vimscript to lua.</p>
 
-<h1 id="home--install--support"><strong><em><a href="https://datv.nulldoot2k.xyz/Setup-NVim-Lua">[HOME]</a></em></strong> &gt;&lt; <strong><em><a href="https://datv.nulldoot2k.xyz/addpack/Install.md">[INSTALL]</a></em></strong> &gt;&lt; <strong><em><a href="https://codeberg.org/nulldoot2k/Neovim-Lua#gift_heart-support">[SUPPORT]</a></em></strong></h1>
+<h1 id="home--install--support"><strong><em><a href="https://datv.nulldoot2k.xyz/Setup-NVim-Lua">[HOME]</a></em></strong> &gt;&lt; <strong><em><a href="http://127.0.0.1:4000/Install">[INSTALL]</a></em></strong> &gt;&lt; <strong><em><a href="https://codeberg.org/nulldoot2k/Neovim-Lua#gift_heart-support">[SUPPORT]</a></em></strong></h1>
 
 <h2 id="showcase">Showcase</h2>
 
