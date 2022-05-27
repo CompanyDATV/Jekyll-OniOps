@@ -13,7 +13,7 @@ All steps are done manually only. Every time we have to manually move the code f
 Everything is a manual process. It will take more time.
 DevOps is a process and it includes many tools to automate the process and it is used to ease the work of developer and operations team.
 
-# **_[[AUTHOR](https://datv.nulldoot2k.xyz#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz#gift_heart-support)]_**
+# **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz/JenkinsForm#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz/JenkinsForm#gift_heart-support)]_**
 
 ## Showcase
 
