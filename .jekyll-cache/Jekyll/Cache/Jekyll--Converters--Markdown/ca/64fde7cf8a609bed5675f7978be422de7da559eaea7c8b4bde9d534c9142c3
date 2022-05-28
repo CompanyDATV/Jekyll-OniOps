@@ -1,53 +1,65 @@
----
-layout: page
-title: irc
----
-
-![image](https://youranonnews.files.wordpress.com/2011/07/untitled-1.jpg)
-
-<center>
-<h1 style="font-weight:bold">
+I"4<center>
+<h1 style="font-weight=bold">
 Welcome To IRC_Hexchat^AnOps!!!
 </h1>
 </center>
 
-# Overview and Tutorial 0_o
+<h1 id="óp">=======================Óp======================</h1>
 
-## IRCNow:
+<p><img src="https://youranonnews.files.wordpress.com/2011/07/untitled-1.jpg" alt="image" /></p>
 
-- **The Users' Network**
+<h1 id="overview-and-tutorial-0_o">Overview and Tutorial 0_o</h1>
 
-  Everything you should know about IRC, welcome to the IRC association, Of the users, By the users, For the users
+<h2 id="ircnow">IRCNow:</h2>
 
-## Link IRCNow : **[IRC-Now](https://ircnow.org)** || Link AnonOps : **[IRC-AnOps](https://anonops.com)** || Link AnonOps : **[IRC-2600](https://scuttled.net)**
+<ul>
+  <li>
+    <p><strong>The Users’ Network</strong></p>
 
-- We are here **[OPNSA](https://anonops.com/opnsa)**
+    <p>Everything you should know about IRC, welcome to the IRC association, Of the users, By the users, For the users</p>
+  </li>
+</ul>
 
-  There are many ways you can spread the word, the most efficient could be printing over 9000 flyers and during the night go out and place them everwhere. Ideally in high-traffic areas. You can get lawn signs, posters, flyers, etc to bring attention. Even only posting a few still helps, but the more you are able to put up, the more attention it will bring!
+<h2 id="link-ircnow--irc-now--link-anonops--irc-anops--link-anonops--irc-2600">Link IRCNow : <strong><a href="https://ircnow.org">IRC-Now</a></strong> || Link AnonOps : <strong><a href="https://anonops.com">IRC-AnOps</a></strong> || Link AnonOps : <strong><a href="https://scuttled.net">IRC-2600</a></strong></h2>
 
-  > -- Link Click go to --> : **[Bring!!!](https://anonops.com/opnsa/paperstorm.html)** <--
+<ul>
+  <li>
+    <p>We are here <strong><a href="https://anonops.com/opnsa">OPNSA</a></strong></p>
 
-# Suggest More...!!!
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>There are many ways you can spread the word, the most efficient could be printing over 9000 flyers and during the night go out and place them everwhere. Ideally in high-traffic areas. You can get lawn signs, posters, flyers, etc to bring attention. Even only posting a few still helps, but the more you are able to put up, the more attention it will bring!
+</code></pre></div>    </div>
 
+    <blockquote>
+      <p>– Link Click go to –&gt; : <strong><a href="https://anonops.com/opnsa/paperstorm.html">Bring!!!</a></strong> &lt;–</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="suggest-more">Suggest More…!!!</h1>
+
+<details><summary> <b>Click HERE</b></summary>
 <h3>Upload Hidden</h3>
 
-    Upload your files anonymously and free on AnonFiles <br>
+    Upload your files anonymously and free on AnonFiles <br />
     We offer you 20 GB filesize limit and unlimited bandwidth.
 
-> Link : **[Upload Anonops](https://anonfiles.com)**
+&gt; Link : **[Upload Anonops](https://anonfiles.com)**
 
 <h3>Radio AnonOps</h3>
 
 ![image](https://radio.anonops.com/public/img/logo.png)
 
-    Hello, and welcome to RadioAnonOps. The home of eargasms, dragons, and knitting. <br>
-    To chat to us then join us on IRC and harangue the DJs if you don't like our tunes. <br>
+    Hello, and welcome to RadioAnonOps. The home of eargasms, dragons, and knitting. <br />
+    To chat to us then join us on IRC and harangue the DJs if you don't like our tunes. <br />
     irc.anonops.com Port: 6697 SSL Only and accept self-signed certs.
 
-> Link **[Radio AnonOps](https://radio.anonops.com/)**
+&gt; Link **[Radio AnonOps](https://radio.anonops.com/)**
 
-# How To Join Us
+</details>
 
+<h1 id="how-to-join-us">How To Join Us</h1>
+
+<details><summary> <b>Join Us!!!</b></summary>
 <h3>(Tor + browser) - browser = Tor!</h3>
 
 - First of all, you need to **_[download and install Tor](https://www.torproject.org/download/)_** which is now bundled together with custom firefox browser (but we won’t use the bundled browser),
@@ -85,7 +97,7 @@ curl --socks5 localhost:9050 \
 
 The output should be something like this
 
-> Congratulations. This browser is configured to use Tor
+&gt; Congratulations. This browser is configured to use Tor
 
 So now we don’t need to open Tor Browser overtimes to connect with Tor network (all we need just Tor services).
 
@@ -103,19 +115,18 @@ Just login as usual:
   <insert_your_password>
     <insert_your_fake_email>
       /msg NickServ IDENTIFY
-      <insert_your_password></insert_your_password></insert_your_fake_email></insert_your_password
-></insert_your_username>
+      <insert_your_password></insert_your_password></insert_your_fake_email></insert_your_password></insert_your_username>
 ```
 
 Successfuly log in? OK, then open CMD (i prefer to use git-bash actually) and type
 **(cd %AppData%\Roaming\HexChat)**
 and press enter, just create folder certs if you don’t have yet and navigate inside that folder.
 
-> **mkdir certs && cd certs**
+&gt; **mkdir certs &amp;&amp; cd certs**
 
 Now let generate certificate using this command
 
-> **openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out client.pem -keyout client.pem**
+&gt; **openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out client.pem -keyout client.pem**
 
 ```css
 $ openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out client.pem -keyout client.pem
@@ -152,7 +163,7 @@ $ openssl x509 -in ./client.pem -outform der | sha1sum -b | cut -d' ' -f1
 /msg NiclServ CERT LIST
 ```
 
-Now let set our HEXCHAT to use proxy via HexChat (setting-> preference-> Network and Network setup).
+Now let set our HEXCHAT to use proxy via HexChat (setting-&gt; preference-&gt; Network and Network setup).
 
 Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as localhost or 127.0.0.1. Then press OK to comfirm.
 
@@ -163,108 +174,69 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
 - We are almost done, now just close everything and exit HexChat. Start (open) HexChat again and try connect to Server-TOR
 - Now your IP are spoofed on Tor network. Let me know if you have some error or problem :)
 
-# Setting <3
+&lt;/details&gt;
+
+# Setting &lt;3
+
+<details><summary> <b> Setting Server Irc-Tor for HexChat/XChat </b></summary>
 
 - irc 2600net: irc.2600.net/+6697
-
-  > Use SSL for all the servers on this Network
-
-  > Accept invalid SSL certificate
-
-  > nickname + username : <your_name>
-
-  > Login_method : <SASL EXTERNAL (cert)>
-
-  > UTF-8 (Unicode)
-
-  > Connect commands: msg nickserv identify insert_your_name insert_your_password
-
+  - Use SSL for all the servers on this Network
+  - Accept invalid SSL certificate
+  - nickname + username : <your_name>
+  - Login_method : &lt;SASL EXTERNAL (cert)&gt;
+  - UTF-8 (Unicode)
+  - Connect commands: msg nickserv identify insert_your_name insert_your_password
 - irc AnonOps: irc.anonops.com/+6697
-
-  > Use SSL for all the servers on this Network
-
-  > nickname + username : <your_name>
-
-  > Login_method : NickServ (/MSG NickServ + password)
-
-  > password: insert_your_password
-
-  > UTF-8 (Unicode)
-
-  > Connect commands: msg nickserv identify insert_your_password
-
+  - Use SSL for all the servers on this Network
+  - nickname + username : <your_name>
+  - Login_method : NickServ (/MSG NickServ + password)
+  - password: insert_your_password
+  - UTF-8 (Unicode)
+  - Connect commands: msg nickserv identify insert_your_password
 - irc FreeNode:
+  - chat.freenode.net/+6697 or
+  - d6dx2v2kh34q3mil3c774ozfa637czrrfwgevvpbujhbk5axyy7hoiqd.onion or
+  - ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion ||
+  - Bypass proxy server (because hexchat error irc-tor)
+  - Use SSL for all the servers on this Network
+  - Accept invalid SSL certificate
+  - nickname + username : <your_name>
+  - Login_method : &lt;SASL EXTERNAL (cert)&gt;
+  - UTF-8 (Unicode)
+- irc IRCnet: IRCnet3mh2zfmpn3zcgwtrjnh37zcnyvjmsvoig577isjmy6m24auqqd.onion or ssl.cloak.ircnet.io
+  - Register account Cloak: **[Cloak Hidden](https://www.cloak.ircnet.io)**
+  - nickname + username : <your_name>
+  - Login_method : Server password (/PASS password)
+  - password: Account_Hostname_Cloak-password_cloak --&gt; for example: username-password
+  - UTF-8 (Unicode)
+- irc Libera.Chat: irc.libera.chat/+6697 or libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion/+6697
+  - Use SSL for all the servers on this Network
+  - Accept invalid SSL certificate
+  - nickname + username : <your_name>
+  - Login_method : NickServ (/MSG NickServ + password)
+  - password: insert_your_password
+  - UTF-8 (Unicode)
+- irc OFTC: irc.oftc.net or oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion
+  - Use SSL for all the servers on this Network
+  - Accept invalid SSL certificate
+  - nickname + username : <your_name>
+  - Login_method : &lt;SASL EXTERNAL (cert)&gt;
+  - UTF-8 (Unicode)
+  - Connect commands : msg nickserv identify insert_your_password
+- irc IRCNow: 4ufrikyorlatp5ekgz6tlre22v6b5jxqbiid6cp7nuhemklukiohidqd.onion
+  - Use SSL for all the servers on this Network
+  - Accept invalid SSL certificate
+  - nickname + username : <your_name>
+  - Login_method : &lt;SASL EXTERNAL (cert)&gt;
+  - UTF-8 (Unicode)
+  - Connect commands : msg nickserv identify insert_your_password
 
-  > [Look](chat.freenode.net/+6697) or [Look1](d6dx2v2kh34q3mil3c774ozfa637czrrfwgevvpbujhbk5axyy7hoiqd.onion) and [Look2](ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion)
-
-  > Bypass proxy server (because hexchat error irc-tor)
-
-  > Use SSL for all the servers on this Network
-
-  > Accept invalid SSL certificate
-
-  > nickname + username : <your_name>
-
-  > Login_method : <SASL EXTERNAL (cert)>
-
-  > UTF-8 (Unicode)
-
-- irc IRCnet: [Look](IRCnet3mh2zfmpn3zcgwtrjnh37zcnyvjmsvoig577isjmy6m24auqqd.onion) or [Look1](ssl.cloak.ircnet.io)
-
-  > Register account Cloak: **[Cloak Hidden](https://www.cloak.ircnet.io)**
-
-  > nickname + username : <your_name>
-
-  > Login_method : Server password (/PASS password)
-
-  > password: Account_Hostname_Cloak-password_cloak --> for example: username-password
-
-  > UTF-8 (Unicode)
-
-- irc Libera.Chat: [Look](irc.libera.chat/+6697) or [Look1](libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion/+6697)
-
-  > Use SSL for all the servers on this Network
-
-  > Accept invalid SSL certificate
-
-  > nickname + username : <your_name>
-
-  > Login_method : NickServ (/MSG NickServ + password)
-
-  > password: insert_your_password
-
-  > UTF-8 (Unicode)
-
-- irc OFTC: [Look](irc.oftc.net) or [Look1](oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion)
-
-  > Use SSL for all the servers on this Network
-
-  > Accept invalid SSL certificate
-
-  > nickname + username : <your_name>
-
-  > Login_method : <SASL EXTERNAL (cert)>
-
-  > UTF-8 (Unicode)
-
-  > Connect commands : msg nickserv identify insert_your_password
-
-- irc IRCNow: [Look](4ufrikyorlatp5ekgz6tlre22v6b5jxqbiid6cp7nuhemklukiohidqd.onion)
-
-  > Use SSL for all the servers on this Network
-
-  > Accept invalid SSL certificate
-
-  > nickname + username : <your_name>
-
-  > Login_method : <SASL EXTERNAL (cert)>
-
-  > UTF-8 (Unicode)
-
-  > Connect commands : msg nickserv identify insert_your_password
+&lt;/details&gt;
 
 ## Setting Network - REQUIRE
 
+<details><summary> <b>REQUIRE</b></summary>
 <h3>Network setup : Preferences - Hexchat</h3>
 
     - **Proxy Server**
@@ -274,20 +246,26 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
     - Use proxy for: ALL connections
 
 - like that:
-  > ![image](https://user-images.githubusercontent.com/67037335/166261925-927a1d76-a678-4b66-b2e1-90e13d2a5abe.png)
+  &gt; ![image](https://user-images.githubusercontent.com/67037335/166261925-927a1d76-a678-4b66-b2e1-90e13d2a5abe.png)
 
-# **Study Try Hard - COURSE AnonOps**
+</details>
 
-- Learn and improve skill by --> **[HERE](https://wiki.ircnow.org/index.php?n=Ircnow.Minutemin)**
+# Study Try hard!!!
+
+<details><summary> <b> Let's Go </b></summary>
+
+################################ Study Try Hard || COURSE AnonOps ##################################
+
+- Learn and improve skill by --&gt; **[HERE](https://wiki.ircnow.org/index.php?n=Ircnow.Minutemin)**
 - By the side : we also have an overview course (OSCP or CEH + Hacking)
-  > --> Link : **[[Study try Hard](https://goldmine.anonworld.us)** <--
+  &gt; --&gt; Link : **[[Study try Hard](https://goldmine.anonworld.us)** &lt;--
 - The money to keep this going comes straight from our pockets. If you find these resources useful, please consider
   donating any amount to one of the following addresses. We will keep working to improve the content and provide more resources:
 - ![image](https://user-images.githubusercontent.com/67037335/166635031-0234f61b-3532-44a9-a63e-fa0322f24028.png)
 
-  > --> Click go to Dowload : **[Download](https://goldmine.anonworld.us/learninghub/THE%20WHOLE%20GODDMAN%20GOLDMINE.rar)**
+  &gt; --&gt; Click go to Dowload : **[Download](https://goldmine.anonworld.us/learninghub/THE%20WHOLE%20GODDMAN%20GOLDMINE.rar)**
 
-- Almost --> Tools for you!!!
+- Almost --&gt; Tools for you!!!
 
 ```js
     https://portswigger.net/web-security/ssrf
@@ -307,11 +285,11 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
     https://0xn3va.gitbook.io/cheat-sheets/web-application/server-side-request-forgery
 ```
 
-# **IRC-Free Virtual Private Server - COURSE IRCNow**
+################################ IRC-Free Virtual Private Server. || COURSE IRCNow ##################################
 
 - With IRCNow: Free OpenBSD VPS for Teammates **[FREE](https://wiki.ircnow.org/index.php?n=Vps.Vps)**
 
-  >
+  &gt;
 
           We are offering a free sysadmin course. If interested,
           Check out our shell tutorial:
@@ -327,10 +305,14 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
 - **Note:**
   If you need help, you can connect to irc.freeirc.org and ask us on #shell.
   After you finish unix105, you can apply for a virtual private server.
-  > If you join our team, you can claim your free homestead VPS today. Digital independence is FREE for the taking.<br>
-  > If you prefer to work solo, you can purchase a homestead VPS.
+  &gt; If you join our team, you can claim your free homestead VPS today. Digital independence is FREE for the taking.<br />
+  &gt; If you prefer to work solo, you can purchase a homestead VPS.
+
+</details>
 
 # Good luck :)
 
 - Tutorial **_[Follow me](https://www.youtube.com/)_** by channel youtube!!!
 - Follow Me **_[It's About Me](https://linktr.ee/nulldoot)_**
+</your_name></your_name></your_name></your_name></your_name></your_name></your_name></details></insert_cert_fingerprint></details>
+:ET

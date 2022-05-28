@@ -1,0 +1,360 @@
+I"DU<p><img src="https://youranonnews.files.wordpress.com/2011/07/untitled-1.jpg" alt="image" /></p>
+
+<center>
+<h1 style="font-weight:bold">
+Welcome To IRC_Hexchat^AnOps!!!
+</h1>
+</center>
+
+<h1 id="overview-and-tutorial-0_o">Overview and Tutorial 0_o</h1>
+
+<h2 id="ircnow">IRCNow:</h2>
+
+<ul>
+  <li>
+    <p><strong>The Users’ Network</strong></p>
+
+    <p>Everything you should know about IRC, welcome to the IRC association, Of the users, By the users, For the users</p>
+  </li>
+</ul>
+
+<h2 id="link-ircnow--irc-now--link-anonops--irc-anops--link-anonops--irc-2600">Link IRCNow : <strong><a href="https://ircnow.org">IRC-Now</a></strong> || Link AnonOps : <strong><a href="https://anonops.com">IRC-AnOps</a></strong> || Link AnonOps : <strong><a href="https://scuttled.net">IRC-2600</a></strong></h2>
+
+<ul>
+  <li>
+    <p>We are here <strong><a href="https://anonops.com/opnsa">OPNSA</a></strong></p>
+
+    <p>There are many ways you can spread the word, the most efficient could be printing over 9000 flyers and during the night go out and place them everwhere. Ideally in high-traffic areas. You can get lawn signs, posters, flyers, etc to bring attention. Even only posting a few still helps, but the more you are able to put up, the more attention it will bring!</p>
+
+    <blockquote>
+      <p>– Link Click go to –&gt; : <strong><a href="https://anonops.com/opnsa/paperstorm.html">Bring!!!</a></strong> &lt;–</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="suggest-more">Suggest More…!!!</h1>
+
+<h3>Upload Hidden</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Upload your files anonymously and free on AnonFiles &lt;br&gt;
+We offer you 20 GB filesize limit and unlimited bandwidth.
+</code></pre></div></div>
+
+<blockquote>
+  <p>Link : <strong><a href="https://anonfiles.com">Upload Anonops</a></strong></p>
+</blockquote>
+
+<h3>Radio AnonOps</h3>
+
+<p><img src="https://radio.anonops.com/public/img/logo.png" alt="image" /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello, and welcome to RadioAnonOps. The home of eargasms, dragons, and knitting. &lt;br&gt;
+To chat to us then join us on IRC and harangue the DJs if you don't like our tunes. &lt;br&gt;
+irc.anonops.com Port: 6697 SSL Only and accept self-signed certs.
+</code></pre></div></div>
+
+<blockquote>
+  <p>Link <strong><a href="https://radio.anonops.com/">Radio AnonOps</a></strong></p>
+</blockquote>
+
+<h1 id="how-to-join-us">How To Join Us</h1>
+
+<h3>(Tor + browser) - browser = Tor!</h3>
+
+<ul>
+  <li>First of all, you need to <strong><em><a href="https://www.torproject.org/download/">download and install Tor</a></em></strong> which is now bundled together with custom firefox browser (but we won’t use the bundled browser),
+please open cmd, navigate deeper into Tor browser folder and find Tor binary file
+ex: <strong>(C:/User/ADMIN/Desktop/Tor Browser/Browser/TorBrowser/Tor)</strong> and execute Tor binary with <strong>-service install</strong> as parameter (just once).</li>
+</ul>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> ./tor.exe -service install
+<span class="p">Running on a Post-Win2K OS, so we'll assume that the LocalService account exists.
+IMPORTANT NOTE:
+</span>    The Tor service will run under the account "NT AUTHORITY\LocalService".  This means
+    that Tor will look for its configuration file under that
+    account's Application Data directory, which is probably not
+    the same as yours.
+<span class="p">Done with CreateService.
+Service installed successfully
+Service started successfully
+</span>
+Note: run cmd with adminis...
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>After that press win+r and type services.msc and press enter. Search Tor Win32 Service and check the service status
+<img src="https://user-images.githubusercontent.com/67037335/165703689-05ce317b-8fd0-48d2-88a9-42a94c864ed7.png" alt="image" /></p>
+  </li>
+  <li>
+    <p>Please make sure Tor Win32 Service is started and running, so we will able to use it with HexChat IRC client.</p>
+  </li>
+</ul>
+
+<p>If you want to check the service work or not, you can use curl command to check (if you have curl installed):</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">curl</span> <span class="nt">--socks5</span> <span class="nt">localhost</span><span class="o">:</span><span class="err">9050</span> <span class="err">\</span>
+    <span class="nt">--socks5-hostname</span> <span class="nt">localhost</span><span class="o">:</span><span class="err">9050</span> <span class="err">\</span>
+    <span class="nt">-s</span> <span class="nt">https</span><span class="o">://</span><span class="nt">check</span><span class="nc">.torproject.org</span><span class="o">/</span> <span class="err">\</span>
+    <span class="o">|</span> <span class="nt">cat</span> <span class="o">|</span> <span class="nt">grep</span> <span class="nt">-m</span> <span class="err">1</span> <span class="nt">Congratulations</span> <span class="o">|</span> <span class="nt">xargs</span>
+</code></pre></div></div>
+
+<p>The output should be something like this</p>
+
+<blockquote>
+  <p>Congratulations. This browser is configured to use Tor</p>
+</blockquote>
+
+<p>So now we don’t need to open Tor Browser overtimes to connect with Tor network (all we need just Tor services).</p>
+
+<h3>Setup IRC with Hexchat</h3>
+<p>you need to download it first <strong><em><a href="https://hexchat.github.io/downloads.html">Hexchat</a></em></strong></p>
+<ul>
+  <li>Now, let connect to Freenode IRC (directly) using HexChat. I assume you already register IRC account under AnonOps server, 
+if you don’t have account then you need to register because it prerequisite to use hidden services on <strong>union</strong> network.</li>
+</ul>
+
+<p>Just login as usual:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/nick
+<span class="nt">&lt;insert_your_username&gt;</span>
+  /msg NickServ REGISTER
+  <span class="nt">&lt;insert_your_password&gt;</span>
+    <span class="nt">&lt;insert_your_fake_email&gt;</span>
+      /msg NickServ IDENTIFY
+      <span class="nt">&lt;insert_your_password&gt;&lt;/insert_your_password&gt;&lt;/insert_your_fake_email&gt;&lt;/insert_your_password</span>
+<span class="nt">&gt;&lt;/insert_your_username&gt;</span>
+</code></pre></div></div>
+
+<p>Successfuly log in? OK, then open CMD (i prefer to use git-bash actually) and type
+<strong>(cd %AppData%\Roaming\HexChat)</strong>
+and press enter, just create folder certs if you don’t have yet and navigate inside that folder.</p>
+
+<blockquote>
+  <p><strong>mkdir certs &amp;&amp; cd certs</strong></p>
+</blockquote>
+
+<p>Now let generate certificate using this command</p>
+
+<blockquote>
+  <p><strong>openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out client.pem -keyout client.pem</strong></p>
+</blockquote>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">$</span> <span class="nt">openssl</span> <span class="nt">req</span> <span class="nt">-x509</span> <span class="nt">-sha256</span> <span class="nt">-new</span> <span class="nt">-newkey</span> <span class="nt">rsa</span><span class="o">:</span><span class="err">4096</span> <span class="nt">-days</span> <span class="err">1000</span> <span class="nt">-nodes</span> <span class="nt">-out</span> <span class="nt">client</span><span class="nc">.pem</span> <span class="nt">-keyout</span> <span class="nt">client</span><span class="nc">.pem</span>
+<span class="nt">Generating</span> <span class="nt">a</span> <span class="nt">RSA</span> <span class="nt">private</span> <span class="nt">key</span>
+<span class="nt">writing</span> <span class="nt">new</span> <span class="nt">private</span> <span class="nt">key</span> <span class="nt">to</span> <span class="s2">'client.pem'</span>
+<span class="nt">-----</span>
+<span class="nt">You</span> <span class="nt">are</span> <span class="nt">about</span> <span class="nt">to</span> <span class="nt">be</span> <span class="nt">asked</span> <span class="nt">to</span> <span class="nt">enter</span> <span class="nt">information</span> <span class="nt">that</span> <span class="nt">will</span> <span class="nt">be</span> <span class="nt">incorporated</span>
+<span class="nt">into</span> <span class="nt">your</span> <span class="nt">certificate</span> <span class="nt">request</span><span class="o">.</span>
+<span class="nt">What</span> <span class="nt">you</span> <span class="nt">are</span> <span class="nt">about</span> <span class="nt">to</span> <span class="nt">enter</span> <span class="nt">is</span> <span class="nt">what</span> <span class="nt">is</span> <span class="nt">called</span> <span class="nt">a</span> <span class="nt">Distinguished</span> <span class="nt">Name</span> <span class="nt">or</span> <span class="nt">a</span> <span class="nt">DN</span><span class="o">.</span>
+<span class="nt">There</span> <span class="nt">are</span> <span class="nt">quite</span> <span class="nt">a</span> <span class="nt">few</span> <span class="nt">fields</span> <span class="nt">but</span> <span class="nt">you</span> <span class="nt">can</span> <span class="nt">leave</span> <span class="nt">some</span> <span class="nt">blank</span>
+<span class="nt">For</span> <span class="nt">some</span> <span class="nt">fields</span> <span class="nt">there</span> <span class="nt">will</span> <span class="nt">be</span> <span class="nt">a</span> <span class="nt">default</span> <span class="nt">value</span><span class="o">,</span>
+<span class="nt">If</span> <span class="nt">you</span> <span class="nt">enter</span> <span class="s2">'.'</span><span class="o">,</span> <span class="nt">the</span> <span class="nt">field</span> <span class="nt">will</span> <span class="nt">be</span> <span class="nt">left</span> <span class="nt">blank</span><span class="o">.</span>
+<span class="nt">-----</span>
+<span class="nt">Country</span> <span class="nt">Name</span> <span class="o">(</span><span class="err">2</span> <span class="nt">letter</span> <span class="nt">code</span><span class="o">)</span> <span class="o">[</span><span class="nt">AU</span><span class="o">]</span><span class="nd">:MY</span>
+<span class="nt">State</span> <span class="nt">or</span> <span class="nt">Province</span> <span class="nt">Name</span> <span class="o">(</span><span class="nt">full</span> <span class="nt">name</span><span class="o">)</span> <span class="o">[</span><span class="nt">Some-State</span><span class="o">]:</span>
+<span class="nt">Locality</span> <span class="nt">Name</span> <span class="o">(</span><span class="nt">eg</span><span class="o">,</span> <span class="nt">city</span><span class="o">)</span> <span class="o">[]:</span>
+<span class="nt">Organization</span> <span class="nt">Name</span> <span class="o">(</span><span class="nt">eg</span><span class="o">,</span> <span class="nt">company</span><span class="o">)</span> <span class="o">[</span><span class="nt">Internet</span> <span class="nt">Widgits</span> <span class="nt">Pty</span> <span class="nt">Ltd</span><span class="o">]:</span>
+<span class="nt">Organizational</span> <span class="nt">Unit</span> <span class="nt">Name</span> <span class="o">(</span><span class="nt">eg</span><span class="o">,</span> <span class="nt">section</span><span class="o">)</span> <span class="o">[]:</span>
+<span class="nt">Common</span> <span class="nt">Name</span> <span class="o">(</span><span class="nt">e</span><span class="nc">.g</span><span class="o">.</span> <span class="nt">server</span> <span class="nt">FQDN</span> <span class="nt">or</span> <span class="nt">YOUR</span> <span class="nt">name</span><span class="o">)</span> <span class="o">[]:</span>
+<span class="nt">Email</span> <span class="nt">Address</span> <span class="o">[]:</span>
+</code></pre></div></div>
+
+<p>When finish, find the cert fingerprint and copy thus 40 chars output using command like example below:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ openssl x509 -in ./client.pem -outform der | sha1sum -b | cut -d' ' -f1
+12345bd20a7c7dcm123453e1e61234588f412345
+</code></pre></div></div>
+
+<ul>
+  <li>Go back to your HexChat IRC client and add you cert fingerprint</li>
+</ul>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">/</span><span class="nt">msg</span> <span class="nt">NickServ</span> <span class="nt">CERT</span> <span class="nt">ADD</span> <span class="o">&lt;</span><span class="nt">insert_cert_fingerprint</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="nt">msg</span> <span class="nt">NiclServ</span> <span class="nt">CERT</span> <span class="nt">LIST</span>
+</code></pre></div></div>
+
+<p>Now let set our HEXCHAT to use proxy via HexChat (setting-&gt; preference-&gt; Network and Network setup).</p>
+
+<p>Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as localhost or 127.0.0.1. Then press OK to comfirm.</p>
+
+<ul>
+  <li>Open network service menus (ctrl+S) and now add new server name. Lets put as “Server-TOR” then press OK. Click on “Freenode-TOR” and press Edit button.
+<img src="https://i.vgy.me/TEeSb7.png#center" alt="image" /></li>
+  <li>Opt and tick “connect on selected server only”, “use SSL for all server on this network” and “accept invalid SSL certificate”.</li>
+  <li>Change login method to <strong>SASL EXTERNAL (cert)</strong> and add Server IRC hidden service server address (you may check here ).</li>
+  <li>We are almost done, now just close everything and exit HexChat. Start (open) HexChat again and try connect to Server-TOR</li>
+  <li>Now your IP are spoofed on Tor network. Let me know if you have some error or problem :)</li>
+</ul>
+
+<h1 id="setting-3">Setting &lt;3</h1>
+
+<ul>
+  <li>irc 2600net: irc.2600.net/+6697
+    <ul>
+      <li>Use SSL for all the servers on this Network</li>
+      <li>Accept invalid SSL certificate</li>
+      <li>nickname + username : <your_name></your_name></li>
+      <li>Login_method : &lt;SASL EXTERNAL (cert)&gt;</li>
+      <li>UTF-8 (Unicode)</li>
+      <li>Connect commands: msg nickserv identify insert_your_name insert_your_password</li>
+    </ul>
+  </li>
+  <li>irc AnonOps: irc.anonops.com/+6697
+    <ul>
+      <li>Use SSL for all the servers on this Network</li>
+      <li>nickname + username : <your_name></your_name></li>
+      <li>Login_method : NickServ (/MSG NickServ + password)</li>
+      <li>password: insert_your_password</li>
+      <li>UTF-8 (Unicode)</li>
+      <li>Connect commands: msg nickserv identify insert_your_password</li>
+    </ul>
+  </li>
+  <li>irc FreeNode: <a href="chat.freenode.net/+6697">Look</a> or <a href="d6dx2v2kh34q3mil3c774ozfa637czrrfwgevvpbujhbk5axyy7hoiqd.onion">Look1</a> and <a href="ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion">Look2</a>
+    <ul>
+      <li>Bypass proxy server (because hexchat error irc-tor)</li>
+      <li>Use SSL for all the servers on this Network</li>
+      <li>Accept invalid SSL certificate</li>
+      <li>nickname + username : <your_name></your_name></li>
+      <li>Login_method : &lt;SASL EXTERNAL (cert)&gt;</li>
+      <li>UTF-8 (Unicode)</li>
+    </ul>
+  </li>
+  <li>irc IRCnet: <a href="IRCnet3mh2zfmpn3zcgwtrjnh37zcnyvjmsvoig577isjmy6m24auqqd.onion">Look</a> or <a href="ssl.cloak.ircnet.io">Look1</a>
+    <ul>
+      <li>Register account Cloak: <strong><a href="https://www.cloak.ircnet.io">Cloak Hidden</a></strong></li>
+      <li>nickname + username : <your_name></your_name></li>
+      <li>Login_method : Server password (/PASS password)</li>
+      <li>password: Account_Hostname_Cloak-password_cloak –&gt; for example: username-password</li>
+      <li>UTF-8 (Unicode)</li>
+    </ul>
+  </li>
+  <li>irc Libera.Chat: irc.libera.chat/+6697 or libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion/+6697
+    <ul>
+      <li>Use SSL for all the servers on this Network</li>
+      <li>Accept invalid SSL certificate</li>
+      <li>nickname + username : <your_name></your_name></li>
+      <li>Login_method : NickServ (/MSG NickServ + password)</li>
+      <li>password: insert_your_password</li>
+      <li>UTF-8 (Unicode)</li>
+    </ul>
+  </li>
+  <li>irc OFTC: irc.oftc.net or oftcnet6xg6roj6d7id4y4cu6dchysacqj2ldgea73qzdagufflqxrid.onion
+    <ul>
+      <li>Use SSL for all the servers on this Network</li>
+      <li>Accept invalid SSL certificate</li>
+      <li>nickname + username : <your_name></your_name></li>
+      <li>Login_method : &lt;SASL EXTERNAL (cert)&gt;</li>
+      <li>UTF-8 (Unicode)</li>
+      <li>Connect commands : msg nickserv identify insert_your_password</li>
+    </ul>
+  </li>
+  <li>irc IRCNow: 4ufrikyorlatp5ekgz6tlre22v6b5jxqbiid6cp7nuhemklukiohidqd.onion
+    <ul>
+      <li>Use SSL for all the servers on this Network</li>
+      <li>Accept invalid SSL certificate</li>
+      <li>nickname + username : <your_name></your_name></li>
+      <li>Login_method : &lt;SASL EXTERNAL (cert)&gt;</li>
+      <li>UTF-8 (Unicode)</li>
+      <li>Connect commands : msg nickserv identify insert_your_password</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="setting-network---require">Setting Network - REQUIRE</h2>
+
+<h3>Network setup : Preferences - Hexchat</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- **Proxy Server**
+- Hostname : 127.0.0.1
+- Port : 9050
+- Type : SOCKS5
+- Use proxy for: ALL connections
+</code></pre></div></div>
+
+<ul>
+  <li>like that:
+    <blockquote>
+      <p><img src="https://user-images.githubusercontent.com/67037335/166261925-927a1d76-a678-4b66-b2e1-90e13d2a5abe.png" alt="image" /></p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="study-try-hard---course-anonops"><strong>Study Try Hard - COURSE AnonOps</strong></h1>
+
+<ul>
+  <li>Learn and improve skill by –&gt; <strong><a href="https://wiki.ircnow.org/index.php?n=Ircnow.Minutemin">HERE</a></strong></li>
+  <li>By the side : we also have an overview course (OSCP or CEH + Hacking)
+    <blockquote>
+      <p>–&gt; Link : <strong>[<a href="https://goldmine.anonworld.us">Study try Hard</a></strong> &lt;–</p>
+    </blockquote>
+  </li>
+  <li>The money to keep this going comes straight from our pockets. If you find these resources useful, please consider
+donating any amount to one of the following addresses. We will keep working to improve the content and provide more resources:</li>
+  <li>
+    <p><img src="https://user-images.githubusercontent.com/67037335/166635031-0234f61b-3532-44a9-a63e-fa0322f24028.png" alt="image" /></p>
+
+    <blockquote>
+      <p>–&gt; Click go to Dowload : <strong><a href="https://goldmine.anonworld.us/learninghub/THE%20WHOLE%20GODDMAN%20GOLDMINE.rar">Download</a></strong></p>
+    </blockquote>
+  </li>
+  <li>Almost –&gt; Tools for you!!!</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nx">https</span><span class="p">:</span><span class="c1">//portswigger.net/web-security/ssrf</span>
+
+    <span class="nx">https</span><span class="p">:</span><span class="c1">//book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery</span>
+
+    <span class="nx">https</span><span class="p">:</span><span class="c1">//cobalt.io/blog/a-pentesters-guide-to-server-side-request-forgery-ssrf</span>
+
+    <span class="nx">https</span><span class="p">:</span><span class="c1">//payatu.com/blog/arjuns/a-basic-approach-to-ssrf</span>
+
+    <span class="nx">https</span><span class="p">:</span><span class="c1">//opensourceagenda.com/projects/allthingsssrf</span>
+
+    <span class="nx">https</span><span class="p">:</span><span class="c1">//neuralegion.com/blog/ssrf-server-side-request-forgery/</span>
+
+    <span class="nx">https</span><span class="p">:</span><span class="c1">//trustwave.com/en-us/resources/blogs/spiderlabs-blog/from-ssrf-to-compromise-case-study/</span>
+
+    <span class="nx">https</span><span class="p">:</span><span class="c1">//0xn3va.gitbook.io/cheat-sheets/web-application/server-side-request-forgery</span>
+</code></pre></div></div>
+
+<h1 id="irc-free-virtual-private-server---course-ircnow"><strong>IRC-Free Virtual Private Server - COURSE IRCNow</strong></h1>
+
+<ul>
+  <li>
+    <p>With IRCNow: Free OpenBSD VPS for Teammates <strong><a href="https://wiki.ircnow.org/index.php?n=Vps.Vps">FREE</a></strong></p>
+
+    <blockquote>
+
+    </blockquote>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    We are offering a free sysadmin course. If interested,
+    Check out our shell tutorial:
+    For Windows: https://wiki.ircnow.org/?n=PuTTY.Connect
+    For Android: https://wiki.ircnow.org/?n=ConnectBot.Connect
+    For Mac: https://wiki.ircnow.org/?n=MacTerminal.Connect
+    For Linux: https://wiki.ircnow.org/?n=OpenSSH.Connect
+    Username: unix101
+    Password: sIC4NrMcvBG
+    Server: freeirc.org
+    Port: 22
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><strong>Note:</strong>
+If you need help, you can connect to irc.freeirc.org and ask us on #shell.
+After you finish unix105, you can apply for a virtual private server.</p>
+    <blockquote>
+      <p>If you join our team, you can claim your free homestead VPS today. Digital independence is FREE for the taking.<br />
+If you prefer to work solo, you can purchase a homestead VPS.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="good-luck-">Good luck :)</h1>
+
+<ul>
+  <li>Tutorial <strong><em><a href="https://www.youtube.com/">Follow me</a></em></strong> by channel youtube!!!</li>
+  <li>Follow Me <strong><em><a href="https://linktr.ee/nulldoot">It’s About Me</a></em></strong></li>
+</ul>
+:ET

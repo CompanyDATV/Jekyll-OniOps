@@ -1,8 +1,8 @@
 <header>
   <div>
-    <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
-    {% assign owner_first_name = site.owner | split: " " %}
-    <h1>{{ owner_first_name[0] | downcase }}@OniOps:D$</h1>
+    <a href="{{ " /" | prepend: site.baseurl | replace: '//' , '/' }}">
+      {% assign owner_first_name = site.owner | split: " " %}
+      <h1>{{ owner_first_name[0] | downcase }}@OniOps:D$</h1>
     </a>
     <div class="header-links">
       {% include links.html %}
@@ -10,6 +10,8 @@
   </div>
   <div class="header-links">
     {% if page.url == "/" %}
+    {% include imgheader.html %}
+    {% elsif page.url == "/about" %}
     {% include imgheader.html %}
     {% endif %}
   </div>
