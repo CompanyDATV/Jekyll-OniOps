@@ -34,8 +34,8 @@ iframe {
 <div class="pagination">
     <span class="page-item">«</span>
     <span class="page-item">1</span>
-    <a href="https://datv.nulldoot2k.xyz/video/2/" class="page-item">2</a>
-    <a href="https://datv.nulldoot2k.xyz/video/2/" class="page-item">»</a>
+    <a href="https://datv.nulldoot2k.xyz/video/2" class="page-item">2</a>
+    <a href="https://datv.nulldoot2k.xyz/video/2" class="page-item">»</a>
 </div>
 
 ---
