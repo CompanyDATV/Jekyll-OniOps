@@ -5,10 +5,10 @@ title: About
 
 <center>
   <h1 style="color:red;font-weight:bold;">
-    About NullDott (DATV)
+    About NullDoot(DATV)
   </h1> 
   I ran into an obstacle in my life but I collected a bonus, the bonus it's the skills "IT".
-You have to think about all the things you have, you know that in many countries no one can afford to study on a computer, consider yourself lucky in fate.
+You have to think about all the things you have, you know that in many countries no one can afford to study on a computer, consider yourself lucky in fate 👨🏻‍💻
 </center>
 
 ![It's about me](/assets/itaboutme.jpg)
@@ -65,4 +65,18 @@ Skills I acquired as a cybersecurity expert
 
   > I'm always there for you, if you need me
 
-# Click to [**[It's About Me](https://companydatv.github.io/MyCV)**] redire
+# **Contacting us**
+
+<div class="contact-staff">
+  <h4>
+    The fastest way is to connect to the IRC on webchat and join #nulldoot and ask in there. Someone can usually point you in the right direction.
+    For general questions about using IRC click HERE. If your question is unanswered, try the #help channel and inquire there. Most of the admins monitor that channel.
+    If all those steps fail, type !staff in #nulldoot PM one of the staff members online. The network admins are usually quite busy so do this LAST not first.
+    You can also ask one of the channel operators. Staff can also be reached by email.
+    To contact a particular staff member by email, use (nick)@oniops.com. Check the staff page for GPG keys for a particular staff member.
+  </h4>
+</div>
+
+> General comments can go to nulldoot2k@proton.me
+
+- Click to [**[It's About Me](https://companydatv.github.io/MyCV)**] redire
