@@ -66,7 +66,7 @@ iframe {
 
 ## Course About JavaScript Basic
 
-> ==> **`Ping now`**: [JavaScript](https://datv.nulldoot2k.xyz/video/courseJs/1)
+> ==> **`Ping now`**: [JavaScript](https://datv.nulldoot2k.xyz/video/courseJS/1)
 
 <!-- > ==> **`Ping now`**: [JavaScript](/video/courseJs/1) -->
 
