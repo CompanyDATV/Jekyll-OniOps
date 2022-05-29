@@ -38,7 +38,7 @@ Welcome To IRC_Hexchat^AnOps!!!
 
 <h3>Radio AnonOps</h3>
 
-![image](https://radio.anonops.com/public/img/logo.png)
+>  > ![image](/assets/anonops.png)
 
     Hello, and welcome to RadioAnonOps. The home of eargasms, dragons, and knitting. <br>
     To chat to us then join us on IRC and harangue the DJs if you don't like our tunes. <br>
