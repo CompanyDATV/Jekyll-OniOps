@@ -1,4 +1,4 @@
-I"}	<style>
+I"~	<style>
 iframe {
   max-width: 100%;
 }
@@ -34,13 +34,12 @@ iframe {
 
 <h4 id="description-in-todays-video-ill-show-you-what-a-day-in-the-life-of-a-software-engineer-looks-like-in-an-actual-office-what-i-do-during-the-day-and-some-of-the-fun-quirky-parts-of-home">Description: In today’s video, I’ll show you what a day in the life of a software engineer looks like in an actual office. What I do during the day, and some of the fun, quirky parts of HOME…</h4>
 
-<div class="pagination">
-    <a href="/video" class="page-item">«</a>
-    <a href="/video" class="page-item">1</a>
-    <span class="page-item">2</span>
-    <a href="/video/3/" class="page-item">2</a>
-    <a href="/video/3/" class="page-item">»</a>
-</div>
+<!-- <div class="pagination"> -->
+<!--     <span class="page-item">«</span> -->
+<!--     <span class="page-item">1</span> -->
+<!--     <a href="/video/2/" class="page-item">2</a> -->
+<!--     <a href="/video/2/" class="page-item">»</a> -->
+<!-- </div> -->
 
 <hr />
 
