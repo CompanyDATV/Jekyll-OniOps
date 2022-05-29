@@ -1,4 +1,4 @@
-I"�<style>
+I"�<style>
 iframe {
   max-width: 100%;
 }
@@ -20,6 +20,14 @@ iframe {
 
 <hr />
 
+<h3 id="title-a-day-at-the-home-office-in-vietnam-city--day-in-the-life-of-a-software-engineer-at-home">Title: A Day at the HOME Office in VietNam City | Day in the Life of a Software Engineer at Home</h3>
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/Zy9rQcTflhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h4 id="description-in-todays-video-ill-show-you-what-a-day-in-the-life-of-a-software-engineer-looks-like-in-an-actual-office-what-i-do-during-the-day-and-some-of-the-fun-quirky-parts-of-home">Description: In today’s video, I’ll show you what a day in the life of a software engineer looks like in an actual office. What I do during the day, and some of the fun, quirky parts of HOME…</h4>
+
+<hr />
+
 <h3 id="title-netcat-short-link">Title: Netcat short link</h3>
 
 <iframe width="100%" height="350" src="https://www.youtube.com/embed/BJ8jvRg1K-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
@@ -36,11 +44,19 @@ iframe {
 
 <hr />
 
-<h3 id="title-a-day-at-the-home-office-in-vietnam-city--day-in-the-life-of-a-software-engineer-at-home">Title: A Day at the HOME Office in VietNam City | Day in the Life of a Software Engineer at Home</h3>
+<h3 id="title-decrypt-http-and-https-traffic-with-tls-wireshark">Title: Decrypt HTTP and HTTPS Traffic with TLS Wireshark</h3>
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/Zy9rQcTflhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/Z8We_C8ydAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<h4 id="description-in-todays-video-ill-show-you-what-a-day-in-the-life-of-a-software-engineer-looks-like-in-an-actual-office-what-i-do-during-the-day-and-some-of-the-fun-quirky-parts-of-home">Description: In today’s video, I’ll show you what a day in the life of a software engineer looks like in an actual office. What I do during the day, and some of the fun, quirky parts of HOME…</h4>
+<h4 id="description-in-this-tutorial-we-are-going-to-capture-the-client-side-session-keys-by-setting-an-environment-variable-in-windows-then-feed-them-to-wireshark-for-tls-13-decryption">Description: In this tutorial, we are going to capture the client side session keys by setting an environment variable in Windows, then feed them to Wireshark for TLS 1.3 decryption…</h4>
+
+<hr />
+
+<h3 id="title-instructions-for-installing-jenkins-on-windows-2022">Title: Instructions for installing Jenkins on Windows 2022</h3>
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/sUuh2mkCH3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h4 id="description-jenkins-is-an-open-source-automation-server-it-helps-automate-the-parts-of-software-development-related-to-building-testing-and-deploying-facilitating-continuous-integration-and-continuous-deliver">Description: Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous deliver…</h4>
 
 <div class="pagination">
     <span class="page-item">«</span>
@@ -50,6 +66,12 @@ iframe {
 </div>
 
 <hr />
+
+<h2 id="course-about-javascript-basic">Course About JavaScript Basic</h2>
+
+<blockquote>
+  <p>==&gt; <strong><code class="language-plaintext highlighter-rouge">Ping now</code></strong>:</p>
+</blockquote>
 
 <h2 id="donate">Donate</h2>
 
