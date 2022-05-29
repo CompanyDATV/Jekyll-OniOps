@@ -2,3 +2,39 @@
 layout: page
 title: video
 ---
+
+<style>
+iframe {
+  max-width: 100%;
+}
+</style>
+
+# **Subscribe to our support channel 🥴**
+
+> `Link` [Here 😘](https://www.youtube.com/c/nulldoot)
+
+- - `Ping Here`: **`nulldoot2k@proton.me`**
+
+---
+
+### Title: Netcat short link
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/BJ8jvRg1K-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Description: The command line tool is usually pre-installed on Linux and macOS. Windows users need to download the program from the internet...
+
+---
+
+### Title: A Day at the HOME Office in VietNam City | Day in the Life of a Software Engineer at Home
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/Zy9rQcTflhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Description: In today's video, I'll show you what a day in the life of a software engineer looks like in an actual office. What I do during the day, and some of the fun, quirky parts of HOME...
+
+---
+
+## Donate
+
+> Visa ViettinBank: 103868801400 - Ngan Hang Cong Thuong VietNam
+
+---
