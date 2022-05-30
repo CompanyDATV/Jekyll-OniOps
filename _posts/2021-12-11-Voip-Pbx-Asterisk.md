@@ -1,6 +1,8 @@
 ---
-title: Voip-Pbx-Asterisk
+title: Voip Pbx Asterisk
 published: true
+---
+
 ---
 
 Asterisk is an open source PBX system, created by Digium, more exactly, authored by Mark Spencer.

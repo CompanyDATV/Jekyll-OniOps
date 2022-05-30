@@ -3,6 +3,8 @@ title: Sample Page Markdown
 published: true
 ---
 
+---
+
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](another-page).

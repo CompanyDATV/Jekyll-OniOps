@@ -3,15 +3,31 @@ title: JenkinsForm
 published: true
 ---
 
-Today we will see how to create a simple DevOps project.
-Here we will use a JAVA development project for DevOps system building purposes, cicd with jenkins.
-What is DevOps?. Let's see a real time scenario. Where do we need DevOps?. Let's say you are working on a JAVA project.
-We have 3 servers. Development dev, test - UAT (User Acceptance Testing) and product - Production server.
-Many developers work on the project. The developers will push their code to the development server.
-If everything is fine, then the code is passed to the UAT server. If the UAT passes the test, then the code is moved to the final production server.
-All steps are done manually only. Every time we have to manually move the code from one server to another with dependent libraries manually.
-Everything is a manual process. It will take more time.
-DevOps is a process and it includes many tools to automate the process and it is used to ease the work of developer and operations team.
+---
+
+<style>
+  .fonts-header {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 500px) {
+   .fonts-header { 
+      font-size: 14px; 
+   }
+}
+</style>
+
+<div class="fonts-header">
+  Today we will see how to create a simple DevOps project.
+  Here we will use a JAVA development project for DevOps system building purposes, cicd with jenkins.
+  What is DevOps?. Let's see a real time scenario. Where do we need DevOps?. Let's say you are working on a JAVA project.
+  We have 3 servers. Development dev, test - UAT (User Acceptance Testing) and product - Production server.
+  Many developers work on the project. The developers will push their code to the development server.
+  If everything is fine, then the code is passed to the UAT server. If the UAT passes the test, then the code is moved to the final production server.
+  All steps are done manually only. Every time we have to manually move the code from one server to another with dependent libraries manually.
+  Everything is a manual process. It will take more time.
+  DevOps is a process and it includes many tools to automate the process and it is used to ease the work of developer and operations team.
+</div>
 
 # **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz/JenkinsForm#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz/JenkinsForm#gift_heart-support)]_**
 
@@ -21,14 +37,19 @@ DevOps is a process and it includes many tools to automate the process and it is
 
 ## Theme Showcase
 
-<details><summary> <b>Images CI/CD Jenkins (Click to expand!)</b></summary>
+<details><summary> <b>(Click to expand!)</b></summary>
+
 <h3>Jenkins CI/CD Ansible Tomcat</h3>
 
-![DEMO1](https://user-images.githubusercontent.com/83489434/164889628-2bed0230-42e6-4e80-beb6-5464a2184c58.png)
+<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/83489434/164889628-2bed0230-42e6-4e80-beb6-5464a2184c58.png">
 
 <h3>Jenkins CI/CD Pipelines Tomcat</h3>
 
-![DEMO2](https://user-images.githubusercontent.com/83489434/164889770-ad8b2dc7-82f1-482d-8f84-12db0e7ceb5a.png)
+<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/83489434/164889770-ad8b2dc7-82f1-482d-8f84-12db0e7ceb5a.png">
+
+<h3>Jenkins CI/CD SonarQube Tomcat</h3>
+
+<img class="img-cicd" title="a title" alt="Alt text" width="946" src="https://user-images.githubusercontent.com/83489434/170981454-4db23ad1-b668-4601-8978-e3498c4bdb0a.png">
 
 </details>
 
