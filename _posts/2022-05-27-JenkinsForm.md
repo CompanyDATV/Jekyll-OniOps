@@ -1,9 +1,13 @@
 ---
+layout: post
 title: JenkinsForm
+description: Hello
 published: true
 ---
 
 ---
+
+{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
 <style>
   .fonts-header {
