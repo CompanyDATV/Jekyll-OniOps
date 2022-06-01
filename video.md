@@ -1,6 +1,7 @@
 ---
-layout: default
-title: video
+title: Video Clip
+layout: page
+permalink: /video/
 ---
 
 <style>
@@ -11,7 +12,7 @@ iframe {
 
 # **Subscribe to our support channel 🥴**
 
-> `Link` [Here 😘](https://www.youtube.com/c/nulldoot)
+## `Link` [Here 😘](https://www.youtube.com/c/nulldoot)
 
 - - `Ping Here`: **`nulldoot2k@proton.me`**
 
@@ -55,23 +56,8 @@ iframe {
 
 #### Description: Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous deliver…
 
-<div class="pagination">
-    <span class="page-item">«</span>
-    <span class="page-item">1</span>
-    <a href="https://datv.nulldoot2k.xyz/video/2" class="page-item">2</a>
-    <a href="https://datv.nulldoot2k.xyz/video/2" class="page-item">»</a>
-</div>
-
 ---
 
 ## Course About JavaScript Basic
 
-> ==> **`Ping now`**: [JavaScript](https://datv.nulldoot2k.xyz/video/courseJS/1)
-
-<!-- > ==> **`Ping now`**: [JavaScript](/video/courseJs/1) -->
-
-## Donate
-
-> Visa ViettinBank: 103868801400 - Ngan Hang Cong Thuong VietNam
-
----
+- - ==> **`Ping now`**: [JavaScript](https://datv.nulldoot2k.xyz/video/courseJS/1)

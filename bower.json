@@ -1,0 +1,22 @@
+{
+  "name": "Jekyll-OniOps",
+  "homepage": "https://github.com/CompanyDATV/Jekyll-OniOps",
+  "authors": [
+    "nulldoot2k <nulldoot2k@proton.me>"
+  ],
+  "description": "A Jekyll Theme Built For OniOps",
+  "main": "",
+  "keywords": [
+    "jekyll-theme",
+    "jekyll",
+    "gallery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

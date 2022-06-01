@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nulldoot2k",
+      "name": "NullDoot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10703200?v=4",
+      "profile": "https://companydatv.github.io/MyCV",
+      "contributions": [
+        "infra",
+        "design",
+        "code",
+        "hack"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "CompanyDATV/Jekyll-OniOps",
+  "projectOwner": "CompanyDATV",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
