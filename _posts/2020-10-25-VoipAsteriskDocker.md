@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Voip Pbx Asterisk"
+title: "Voip Pbx Asterisk"
 summary: "Multi Author Support allows to create articles with different Authors"
 author: nulldoot2k
-date: '2020-10-25 1:35:23 +0530'
+date: "2020-10-25 1:35:23 +0530"
 category: jekyll
 thumbnail: /assets/img/posts/theme.png
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi author
@@ -32,7 +32,7 @@ Asterisk is certainly the number one PBX system out there.
 
 - Using vmware 16: Key || `ZF3R0-FHED2-M80TY-8QYGC-NPKYF`
 
-![background](/assets/img/posts/theme1.png)
+<img width="100%" src="/assets/img/posts/theme1.png">
 
 <center> Fix as above </center>
 

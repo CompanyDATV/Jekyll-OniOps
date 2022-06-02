@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "JenkinsForm"
-summary: "Learn how to add categories in posts"
+title: "JenkinsForm"
+summary: "Building System DevOps Ci/Cd with Pipeline Jenkins write jenkinsfile... authors nulldoot2k"
 author: nulldoot2k
-date: '2022-04-28 1:35:23 +0530'
-category: ['jekyll','guides', 'sample_category']
+date: "2022-04-28 1:35:23 +0530"
+category: ["jekyll", "guides", "sample_category"]
 tags: jekyll
 thumbnail: /assets/img/posts/jenkinform.png
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
@@ -38,8 +38,7 @@ permalink: /JenkinsForm
   DevOps is a process and it includes many tools to automate the process and it is used to ease the work of developer and operations team.
 </div>
 
-# **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz/JenkinsForm#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz/JenkinsForm#gift_heart-support)]_**
-
+# **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz/JenkinsForm#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz/JenkinsForm#support)]_**
 
 ## Theme Showcase
 
@@ -47,15 +46,15 @@ permalink: /JenkinsForm
 
 <h3>Jenkins CI/CD Ansible Tomcat</h3>
 
-<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/83489434/164889628-2bed0230-42e6-4e80-beb6-5464a2184c58.png">
+<img src="https://user-images.githubusercontent.com/83489434/164889628-2bed0230-42e6-4e80-beb6-5464a2184c58.png" width="100%"/>
 
 <h3>Jenkins CI/CD Pipelines Tomcat</h3>
 
-<img title="a title" alt="Alt text" src="https://user-images.githubusercontent.com/83489434/164889770-ad8b2dc7-82f1-482d-8f84-12db0e7ceb5a.png">
+<img width="100%" src="https://user-images.githubusercontent.com/83489434/164889770-ad8b2dc7-82f1-482d-8f84-12db0e7ceb5a.png">
 
 <h3>Jenkins CI/CD SonarQube Tomcat</h3>
 
-<img class="img-cicd" title="a title" alt="Alt text" width="946" src="https://user-images.githubusercontent.com/83489434/170981454-4db23ad1-b668-4601-8978-e3498c4bdb0a.png">
+<img width="100%" src="https://user-images.githubusercontent.com/83489434/170981454-4db23ad1-b668-4601-8978-e3498c4bdb0a.png">
 
 </details>
 
@@ -98,7 +97,7 @@ permalink: /JenkinsForm
 
 > Ansible helps to configure "many" servers according to a variety of customizations, reducing the operating time on each installed server.
 
-![image](https://user-images.githubusercontent.com/83489434/165114820-b2a9c53e-4118-4841-9dbd-61ffc5c5a21d.png)
+[<img src="/assets/img/posts/ansibal.png" width="100%"/>](anible)
 
 - Install Ansible
 
@@ -199,4 +198,5 @@ permalink: /JenkinsForm
 ## :gift_heart: Support
 
 - Donate: VISA ViettinBank: 103868801400 - SWIFT/BIC Code: ICBVVNVXDDD
+
 # LINK: (**[My channel](https://www.youtube.com/c/nulldoot)**) Youtube
