@@ -25,35 +25,59 @@ urls:
 
 author_logo: me.jpg
 author: NullDoot2k
-author_bio: Hi, my name is NullDoot, Welcome to blog website OniOps... Join us right now!!!
+author_bio: Hi, my name is NullDoot(DATV), Student at University of Transport Technology, University student with 2 years of development experience in Dev, Sec and Net, freelance with experience and high knowledge of design management implementation and develop web applications, creating quality products for users.
+author_info: I ran into an obstacle in my life but I collected a bonus, the bonus it's the skills "IT". You have to think about all the things you have, you know that in many countries no one can afford to study on a computer, consider yourself lucky in fate.
 author_email: "nulldoot2k@proton.me"
 author_location: VietNam
 author_website_url: "https://datv.nulldoot2k.xyz"
 typewrite-text: NullDoot2k is a jekyll framework built for developers. You can edit this in _config.yml file
 hero_cover_img: itaboutme.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
+# Future
+author_future:
+  - skill_future1: Ui/Ux Designer
+    in_skill_design: Interface development
+    in_skill_design1: Website development
+    in_skill_design2: Creating UI-UX element interactions
+    in_skill_design3: Always come up with new ideas
+    in_skill_design4: Improved good looking interface
+    visibility: true
+  - skill_future2: Fullstack DevOps
+    in_skill_devops: Lead the DevOps department, help the team to solve the problems
+    in_skill_devops1: Application development web/app…
+    in_skill_devops2: Optimize the system quickly
+    in_skill_devops3: Improve security, risk, patch vulnerabilities
+    in_skill_devops4: Improve user access speed
+    visibility: true
+  - skill_future3: Freelancer AnonOps
+    in_skill_anonops: I’m working freelance in cyberspace
+    in_skill_anonops1: Anonops - a world without rules
+    in_skill_anonops2: I’m always there for you, if you need me
+    in_skill_anonops3: Chat channel OniOps with joinus
+    visibility: true
+
 # Experiences
 author_work_experiences:
-  - company_name: Google
-    company_logo: google.png
-    company_url: https://google.com
+  - company_name: AWS
+    company_logo: aws.png
+    company_url: https://aws.amazon.com
     designation: Software Engineer
-    description: Worked on various Google Products
+    description: Worked on various AWS Cloud Products
     visibility: true
-  - company_name: Microsoft
-    company_logo: microsoft.png
-    company_url: https://microsoft.com
-    designation: Azure Developer
-    description: Worked on various Azure Cloud Products
+  - company_name: Elasa
+    company_logo: elsaga.png
+    company_url: https://elsaga.net
+    designation: DevOps - SysAdmin
+    description: Worked on various Cloud Products and Building System
     visibility: true
 
 # Education
 author_education_details:
-  - college_logo: mit.png
-    college_name: MIT
-    college_url: https://mit.org
-    college_degree: CS Engineer
-    description: Bachelor of Technology
+  - college_logo: utt.png
+    college_name: UTT
+    college_url: https://utt.edu.vn
+    college_degree: Studient
+    description: University Technology of Transport
     visibility: true
 
 # Projects
@@ -105,6 +129,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_author_future: true
 
 # pagination of posts
 paginate: 4
