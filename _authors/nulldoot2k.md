@@ -3,7 +3,7 @@ name: DATV
 username: nulldoot2k
 bio: "Hi I'm NullDoot, A OniOps Internet!!!"
 site: https://datv.nulldoot2k.xyz
-avatar: nulldoot2k.png
+avatar: me.jpg
 email: nulldoot2k@proton.me
 social:
     - title: "github"

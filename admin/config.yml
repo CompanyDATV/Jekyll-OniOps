@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: CompanyDATV/Jekyll-OniOps.github.io
+  repo: CompanyDATV/Jekyll-OniOps
   branch: master
   site_domain: datv.nulldoot2k.xyz
 
