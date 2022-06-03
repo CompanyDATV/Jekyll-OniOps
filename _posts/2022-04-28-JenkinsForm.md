@@ -195,7 +195,7 @@ permalink: /JenkinsForm
   - Content: your username codeberg
 - If you have an issue with a plugin in DATV, first you should report it to DATV to see if it's an issue with it.
 
-## :gift_heart: Support
+## Support
 
 - Donate: VISA ViettinBank: 103868801400 - SWIFT/BIC Code: ICBVVNVXDDD
 
