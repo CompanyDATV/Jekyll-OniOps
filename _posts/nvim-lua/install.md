@@ -2,7 +2,7 @@
 layout: post
 author: nulldoot2k
 title: Install Nvim Lua
-permalink: /blog/install-nvim-lua
+permalink: /post/nvim-lua/install-nvim-lua
 ---
 
 After a long time in development neovim 0.5 was finally released as a stable version.

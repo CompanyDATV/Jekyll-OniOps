@@ -14,7 +14,7 @@ After a long time in development neovim 0.5 was finally released as a stable ver
 Among the new exciting features we have better lua support and the promise of a stable api to create our configuration using this language.
 So today I'm going to share with you everything I learned while I was migrating my own configuration from vimscript to lua.
 
-### **_[[HOME]](https://datv.nulldoot2k.xyz/blog/nvim-lua)_** >< **_[[INSTALL]](https://datv.nulldoot2k.xyz/blog/install-nvim-lua)_** >< **_[[SUPPORT]](https://datv.nulldoot2k.xyz/blog/nvim-lua#support)_**
+### **_[[HOME]](https://datv.nulldoot2k.xyz/blog/nvim-lua)_** >< **_[[INSTALL]](https://datv.nulldoot2k.xyz/blog/nvim-lua/install-nvim-lua)_** >< **_[[SUPPORT]](https://datv.nulldoot2k.xyz/blog/nvim-lua#support)_**
 
 ## **Showcase**
 
