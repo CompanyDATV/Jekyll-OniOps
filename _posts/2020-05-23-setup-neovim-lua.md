@@ -6,7 +6,7 @@ date: 2020-05-23T09:52:20.613Z
 thumbnail: /assets/img/posts/vim.png
 category: jekyll
 summary: Demo Content using Netlify CMS
-keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
+keywords: using netlify cms with OniOps-jekyll, OniOps jekyll netlify cms, how to use netlify cms
 permalink: /blog/nvim-lua
 ---
 
@@ -14,9 +14,9 @@ After a long time in development neovim 0.5 was finally released as a stable ver
 Among the new exciting features we have better lua support and the promise of a stable api to create our configuration using this language.
 So today I'm going to share with you everything I learned while I was migrating my own configuration from vimscript to lua.
 
-### **_[[HOME]](https://datv.nulldoot2k.xyz/Setup-NVim-Lua)_** >< **_[[INSTALL]](https://datv.nulldoot2k.xyz/Install)_** >< **_[[SUPPORT]](https://codeberg.org/nulldoot2k/Neovim-Lua#gift_heart-support)_**
+### **_[[HOME]](https://datv.nulldoot2k.xyz/nvim-lua)_** >< **_[[INSTALL]](https://datv.nulldoot2k.xyz/blog/install-nvim-lua)_** >< **_[[SUPPORT]](https://datv.nulldoot2k.xyz/nvim-lua#support)_**
 
-## Showcase
+## **Showcase**
 
 <img src="https://user-images.githubusercontent.com/83489434/164731385-aebc4779-6cae-4122-9bfd-455312895553.png" width="100%">
 
@@ -94,7 +94,7 @@ WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible key 
 
 <kbd><img src="https://user-images.githubusercontent.com/292349/116439438-669f8d00-a804-11eb-9b5b-c7122bd9acac.png" width="100%"></kbd>
 
-## Features
+## **Features**
 
 - Many beautiful themes to choose from.
 - Fast plugin loading.
@@ -113,7 +113,7 @@ WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible key 
 - Write Markdown pretty style [Markdown](https://github.com/iamcco/markdown-preview.nvim)
 - Solidity Contract Smart BlockChain [Solidity](https://github.com/ethereum/solidity)
 
-## Bloat
+## **Bloat**
 
 To everyone who thinks that DATV-nulldoot2k is bloat: Bloat means different things to everyone.
 
@@ -123,7 +123,7 @@ Furthermore, you can disable plugins you don't use in `chadrc.lua`.
 
 <img src = "https://user-images.githubusercontent.com/83489434/164738303-c91eaa9d-9d89-4f54-a025-0fe4222e0c12.png" width="100%">
 
-## TODO
+## **TODO**
 
 DATV is focusing more on improving its already existing plugins and features instead of adding more plugins.
 Things you can do to help currently are:
@@ -132,11 +132,11 @@ Things you can do to help currently are:
 - Debloating the config.
 - Adding more themes.
 
-## Warning
+## **Warning**
 
 If you have an issue with a plugin in DATV, first you should report it to DATV to see if it's an issue with it.
 
-## :gift_heart: Support
+## **Support**
 
 - ViettinBank: 103868801400 - SWIFT/BIC Code: ICBVVNVXDDD
 

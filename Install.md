@@ -1,7 +1,7 @@
 ---
 title: Get Started
 layout: page
-permalink: /get-started/
+permalink: /oniops
 ---
 
 [<img src="https://youranonnews.files.wordpress.com/2011/07/untitled-1.jpg" width="100%"/>](anonops)

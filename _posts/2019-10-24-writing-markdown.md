@@ -8,7 +8,7 @@ category: jekyll
 thumbnail: /assets/img/posts/markdown.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
 usemathjax: true
-permalink: /blog/markdown/
+permalink: /blog/markdown
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
