@@ -65,6 +65,7 @@ permalink: /JenkinsForm
   - Server Jenkins : Ram 1Gb, SSD 20GB, Process 1, Port 22, 8080
   - Server Tomcat : Ram 1Gb, SSD 20GB, Process 1, Port 22, 8090
   - Server Ansible : Ram 1Gb, SSD 20GB, Process 1, Port 22
+  - Server SonarQube : Ram 1Gb, SSD 20GB, Process 1, Port 22, 9000
 
 - Git: Open source, repository - use 1 on 4
 
@@ -74,9 +75,9 @@ permalink: /JenkinsForm
   - [0xacab](https://about.0xacab.org)
 
 - Packet: Extension pack, repository for open source Linux, Unix
-  - httpd, git, wget, chkconfig, php, java, tomcat, ansible, firewalld…
+  - httpd, git, wget, chkconfig, php, java, tomcat, ansible, firewalld, sonarqube…
 
-## Tomcat Server
+## Server Tomcat
 
 - IP-Server-Tomcat:8090
 
@@ -89,7 +90,7 @@ permalink: /JenkinsForm
 ```diff
 :: Require
 + Plugins: SSH Over, SSH Agent
-- Plugins: deploy container
+- Plugins: deploy container, sonarqube scanner, SonarQube
 ! Plugins: Pipeline, maven
 ```
 
@@ -155,7 +156,8 @@ permalink: /JenkinsForm
 
 ## SonarQube
 
-    .. Continoune
+[<img src="/assets/img/posts/sonarqubeserver.png" width="100%"/>](sonarqube)
+.. Continoune
 
 ## Create Key SSH
 

@@ -4,8 +4,7 @@ layout: page
 permalink: /get-started/
 ---
 
-
-![image](https://youranonnews.files.wordpress.com/2011/07/untitled-1.jpg)
+[<img src="https://youranonnews.files.wordpress.com/2011/07/untitled-1.jpg" width="100%"/>](anonops)
 
 <center>
 <h1 style="font-weight:bold">
@@ -40,11 +39,11 @@ Welcome To IRC_Hexchat^AnOps!!!
 
 <h3>Radio AnonOps</h3>
 
-- ![image](/assets/img/anonops.png)
+- [<img src="/assets/img/anonops.png" width="100%"/>](anonops)
 
-    Hello, and welcome to RadioAnonOps. The home of eargasms, dragons, and knitting. <br>
-    To chat to us then join us on IRC and harangue the DJs if you don't like our tunes. <br>
-    irc.anonops.com Port: 6697 SSL Only and accept self-signed certs.
+  Hello, and welcome to RadioAnonOps. The home of eargasms, dragons, and knitting. <br>
+  To chat to us then join us on IRC and harangue the DJs if you don't like our tunes. <br>
+  irc.anonops.com Port: 6697 SSL Only and accept self-signed certs.
 
 > Link **[Radio AnonOps](https://radio.anonops.com/)**
 
@@ -72,7 +71,7 @@ Note: run cmd with adminis...
 ```
 
 - After that press win+r and type services.msc and press enter. Search Tor Win32 Service and check the service status
-  ![image](https://user-images.githubusercontent.com/67037335/165703689-05ce317b-8fd0-48d2-88a9-42a94c864ed7.png)
+  [<img src="https://user-images.githubusercontent.com/67037335/165703689-05ce317b-8fd0-48d2-88a9-42a94c864ed7.png" width="100%"/>](anonops)
 
 - Please make sure Tor Win32 Service is started and running, so we will able to use it with HexChat IRC client.
 
@@ -159,7 +158,8 @@ Now let set our HEXCHAT to use proxy via HexChat (setting-> preference-> Network
 Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as localhost or 127.0.0.1. Then press OK to comfirm.
 
 - Open network service menus (ctrl+S) and now add new server name. Lets put as “Server-TOR” then press OK. Click on “Freenode-TOR” and press Edit button.
-  ![image](https://i.vgy.me/TEeSb7.png#center)
+  [<img src="https://i.vgy.me/TEeSb7.png#center" width="100%"/>](anonops)
+
 - Opt and tick “connect on selected server only”, “use SSL for all server on this network” and “accept invalid SSL certificate”.
 - Change login method to **SASL EXTERNAL (cert)** and add Server IRC hidden service server address (you may check here ).
 - We are almost done, now just close everything and exit HexChat. Start (open) HexChat again and try connect to Server-TOR
@@ -276,7 +276,7 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
     - Use proxy for: ALL connections
 
 - like that:
-  > ![image](https://user-images.githubusercontent.com/67037335/166261925-927a1d76-a678-4b66-b2e1-90e13d2a5abe.png)
+  [<img src="https://user-images.githubusercontent.com/67037335/166261925-927a1d76-a678-4b66-b2e1-90e13d2a5abe.png" width="100%"/>](anonops)
 
 # **Study Try Hard - COURSE AnonOps**
 
@@ -285,7 +285,7 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
   > --> Link : **[[Study try Hard](https://goldmine.anonworld.us)** <--
 - The money to keep this going comes straight from our pockets. If you find these resources useful, please consider
   donating any amount to one of the following addresses. We will keep working to improve the content and provide more resources:
-- ![image](https://user-images.githubusercontent.com/67037335/166635031-0234f61b-3532-44a9-a63e-fa0322f24028.png)
+- [<img src="https://user-images.githubusercontent.com/67037335/166635031-0234f61b-3532-44a9-a63e-fa0322f24028.png" width="100%"/>](anonops)
 
   > --> Click go to Dowload : **[Download](https://goldmine.anonworld.us/learninghub/THE%20WHOLE%20GODDMAN%20GOLDMINE.rar)**
 
