@@ -82,10 +82,10 @@ author_education_details:
 
 # Projects
 author_project_details:
-  - project_thumbnail: gamershub.png
-    project_title: Gamers Hub
-    project_description: A Platform built for Gamers and Game Devs
-    project_url: https://gamershub.in
+  - project_thumbnail: churongcon.png
+    project_title: King DATV
+    project_description: A Platform built for Blog Paper Website
+    project_url: http://churongcondatv.42web.io
     visibility: true
   - project_thumbnail: hack4r.PNG
     project_title: Hack4r
