@@ -165,7 +165,7 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
 - We are almost done, now just close everything and exit HexChat. Start (open) HexChat again and try connect to Server-TOR
 - Now your IP are spoofed on Tor network. Let me know if you have some error or problem :)
 
-# Setting <3
+# **Setting <3**
 
 - irc 2600net: irc.2600.net/+6697
 
