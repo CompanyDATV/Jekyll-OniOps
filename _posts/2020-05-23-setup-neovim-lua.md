@@ -5,8 +5,8 @@ title: Neovim Lua Setup
 date: 2020-05-23T09:52:20.613Z
 thumbnail: /assets/img/posts/vim.png
 category: jekyll
-summary: Demo Content using Netlify CMS
-keywords: using netlify cms with OniOps-jekyll, OniOps jekyll netlify cms, how to use netlify cms
+summary: How to install and using nvim with lua config ???
+keywords: rtfm, seach, nvim, lua
 permalink: /blog/nvim-lua
 ---
 
