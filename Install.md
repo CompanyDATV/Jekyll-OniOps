@@ -1,5 +1,5 @@
 ---
-title: Get Started
+title: Welcome To OniOps
 layout: page
 permalink: /oniops
 ---
@@ -12,15 +12,19 @@ Welcome To IRC_Hexchat^AnOps!!!
 </h1>
 </center>
 
-# Overview and Tutorial 0_o
+# Overview 0_o
 
-## IRCNow:
+- **OniOps is a group name created by NullDoot2k, OniOps is a self-made nickname organization with the desire to be cool and present as an anonymous but sharing and instructive community...**
+
+Join with me by IRC*, I will recommend this subordinate!!!
+
+## IRC
 
 - **The Users' Network**
 
   Everything you should know about IRC, welcome to the IRC association, Of the users, By the users, For the users
 
-## Link IRCNow : **[IRC-Now](https://ircnow.org)** || Link AnonOps : **[IRC-AnOps](https://anonops.com)** || Link AnonOps : **[IRC-2600](https://scuttled.net)**
+## **[IRC-Now](https://ircnow.org)** || **[IRC-AnOps](https://anonops.com)** || **[IRC-2600](https://scuttled.net)**
 
 - We are here **[OPNSA](https://anonops.com/opnsa)**
 
