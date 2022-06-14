@@ -38,6 +38,13 @@ permalink: /JenkinsForm
   DevOps is a process and it includes many tools to automate the process and it is used to ease the work of developer and operations team.
 </div>
 
+Hôm nay chúng ta sẽ xem cách tạo một dự án DevOps đơn giản. Ở đây em sẽ sử dụng một dự án phát triển JAVA cho mục đích xây dựng hệ thống DevOps, cicd cùng với jenkins.
+
+- Hãy xem một kịch bản thời gian thực.
+- Giả sử bạn đang làm việc trên một dự án JAVA.
+- Chúng ta có 3 máy chủ. Phát triển : dev, test - UAT (Kiểm tra sự chấp nhận của người dùng) và product - Máy chủ sản xuất.
+- Nhiều nhà phát triển làm việc trong dự án. Các nhà phát triển sẽ đẩy mã của họ đến máy chủ phát triển. Nếu mọi thứ ổn, thì mã được chuyển đến máy chủ UAT. Nếu UAT vượt qua bài kiểm tra, thì mã sẽ được chuyển đến máy chủ sản xuất cuối cùng. Tất cả các bước chỉ được thực hiện thủ công. Mỗi lần chúng ta phải di chuyển mã theo cách thủ công từ máy chủ này sang máy chủ khác với các thư viện phụ thuộc theo cách thủ công. Mọi thứ đều là một quy trình thủ công. Nó sẽ tiêu tốn nhiều thời gian hơn. DevOps là một quy trình và nó bao gồm nhiều công cụ để tự động hóa quy trình và nó được sử dụng để giảm bớt công việc của nhà phát triển và nhóm vận hành.
+
 # **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz/JenkinsForm#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz/JenkinsForm#support)]_**
 
 ## Theme Showcase
