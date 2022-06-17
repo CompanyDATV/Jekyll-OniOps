@@ -47,19 +47,17 @@ Hôm nay chúng ta sẽ xem cách tạo một dự án DevOps đơn giản. Ở 
 
 # **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz/JenkinsForm#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz/JenkinsForm#support)]_**
 
-## Theme Showcase
+<details><summary> <b>Theme ShowCase!</b></summary>
 
-<details><summary> <b>(Click to expand!)</b></summary>
-
-<h3>Jenkins CI/CD Ansible Tomcat</h3>
+<h3 style="margin-top: 5px; font-weight: bold">Jenkins CI/CD Ansible Tomcat</h3>
 
 <img src="https://user-images.githubusercontent.com/83489434/164889628-2bed0230-42e6-4e80-beb6-5464a2184c58.png" width="100%"/>
 
-<h3>Jenkins CI/CD Pipelines Tomcat</h3>
+<h3 style="margin-top: 5px; font-weight: bold">Jenkins CI/CD Pipelines Tomcat</h3>
 
 <img width="100%" src="https://user-images.githubusercontent.com/83489434/164889770-ad8b2dc7-82f1-482d-8f84-12db0e7ceb5a.png">
 
-<h3>Jenkins CI/CD SonarQube Tomcat</h3>
+<h3 style="margin-top: 5px; font-weight: bold">Jenkins CI/CD SonarQube Tomcat</h3>
 
 <img width="100%" src="https://user-images.githubusercontent.com/83489434/170981454-4db23ad1-b668-4601-8978-e3498c4bdb0a.png">
 
