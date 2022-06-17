@@ -5,7 +5,7 @@ summary: "Building System DevOps Ci/Cd with Pipeline Jenkins write jenkinsfile..
 author: nulldoot2k
 date: "2022-04-28 1:35:23 +0530"
 category: ["jekyll", "guides", "linux", "sample_category"]
-tags: jekyll
+tags: ["linux"]
 thumbnail: /assets/img/posts/jenkinform.png
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
 usemathjax: false
