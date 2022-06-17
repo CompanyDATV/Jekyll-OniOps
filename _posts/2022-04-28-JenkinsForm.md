@@ -38,14 +38,19 @@ permalink: /JenkinsForm
   DevOps is a process and it includes many tools to automate the process and it is used to ease the work of developer and operations team.
 </div>
 
-Hôm nay chúng ta sẽ xem cách tạo một dự án DevOps đơn giản. Ở đây em sẽ sử dụng một dự án phát triển JAVA cho mục đích xây dựng hệ thống DevOps, cicd cùng với jenkins.
+`Hôm nay chúng ta sẽ xem cách tạo một dự án DevOps đơn giản. Ở đây chúng ta sẽ sử dụng một dự án phát triển JAVA cho mục đích xây dựng hệ thống DevOps, cicd cùng với jenkins.`
 
 - Hãy xem một kịch bản thời gian thực.
-- Giả sử bạn đang làm việc trên một dự án JAVA.
+- Giả sử chúng ta đang làm việc trên một dự án JAVA.
 - Chúng ta có 3 máy chủ. Phát triển : dev, test - UAT (Kiểm tra sự chấp nhận của người dùng) và product - Máy chủ sản xuất.
-- Nhiều nhà phát triển làm việc trong dự án. Các nhà phát triển sẽ đẩy mã của họ đến máy chủ phát triển. Nếu mọi thứ ổn, thì mã được chuyển đến máy chủ UAT. Nếu UAT vượt qua bài kiểm tra, thì mã sẽ được chuyển đến máy chủ sản xuất cuối cùng. Tất cả các bước chỉ được thực hiện thủ công. Mỗi lần chúng ta phải di chuyển mã theo cách thủ công từ máy chủ này sang máy chủ khác với các thư viện phụ thuộc theo cách thủ công. Mọi thứ đều là một quy trình thủ công. Nó sẽ tiêu tốn nhiều thời gian hơn. DevOps là một quy trình và nó bao gồm nhiều công cụ để tự động hóa quy trình và nó được sử dụng để giảm bớt công việc của nhà phát triển và nhóm vận hành.
+- Nhiều nhà phát triển làm việc trong dự án. Các nhà phát triển sẽ đẩy mã của họ đến máy chủ phát triển.
+  Nếu mọi thứ ổn, thì mã được chuyển đến máy chủ UAT. Nếu UAT vượt qua bài kiểm tra, thì mã sẽ được chuyển
+  đến máy chủ sản xuất cuối cùng. Tất cả các bước chỉ được thực hiện thủ công. Mỗi lần chúng ta phải di
+  chuyển mã theo cách thủ công từ máy chủ này sang máy chủ khác với các thư viện phụ thuộc theo cách thủ công.
+  Mọi thứ đều là một quy trình thủ công. Nó sẽ tiêu tốn nhiều thời gian hơn. DevOps là một quy trình và nó bao
+  gồm nhiều công cụ để tự động hóa quy trình và nó được sử dụng để giảm bớt công việc của nhà phát triển và nhóm vận hành.
 
-# **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_** • **_[[ANSIBLE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SONARQUBE](https://datv.nulldoot2k.xyz/JenkinsForm#server-ansible)]_** • **_[[SSH](https://datv.nulldoot2k.xyz/JenkinsForm#create-key-ssh)]_** • **_[[SUPPORT](https://datv.nulldoot2k.xyz/JenkinsForm#support)]_**
+## **_[[HOME](/JenkinsForm)]_** • **_[[INSTALL](/blog/JenkinsForm/install)]_** • **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_**
 
 <details><summary> <b>Theme ShowCase!</b></summary>
 
@@ -63,7 +68,7 @@ Hôm nay chúng ta sẽ xem cách tạo một dự án DevOps đơn giản. Ở 
 
 </details>
 
-## Tools
+## **Tools**
 
 - Vmware: Virtualization Platform vmware
 
@@ -80,136 +85,32 @@ Hôm nay chúng ta sẽ xem cách tạo một dự án DevOps đơn giản. Ở 
   - [0xacab](https://about.0xacab.org)
 
 - Packet: Extension pack, repository for open source Linux, Unix
-  - httpd, git, wget, chkconfig, php, java, tomcat, ansible, firewalld, sonarqube…
+  - Packet: httpd, git, wget, chkconfig, php, java, tomcat, ansible, firewalld…
+  - Plugin: SSH Over, SSH Agent, Pipeline, maven, deploy container, SonarQube Scanner, Git Server
+  - Ngrok: Công cụ tạo đường hầm (tunnel) giữa localhost và internet, giúp cho việc truy cập mạng riêng tư thông qua custom doamin của ngrok
 
-## Server Tomcat
+## **Begin with Jenkin Pipeline**
 
-- IP-Server-Tomcat:8090
+### **`Step 1`** Create pipeline jenkins
 
-> **`Webserver Tomcat : IP-Server-Tomcat:8090/webapp`**
+<img width="100%" src="https://0x0.st/oufS.png" />
 
-- Repo: [DemoJenkins Ci/Cd](https://codeberg.org/nulldoot2k/JenkinsPorm)
-
-```diff
-- Download Java and setup Env JAVA_HOME
-+ Setup Page Manager Tomcat
-```
-
-## Jenkins Server
-
-- IP-Server-Jenkins:8080
-
-```diff
-:: Require
-+ Plugins: SSH Over, SSH Agent
-- Plugins: deploy container, sonarqube scanner, SonarQube
-! Plugins: Pipeline, maven
-```
-
-## Server Ansible
-
-> Ansible helps to configure "many" servers according to a variety of customizations, reducing the operating time on each installed server.
-
-[<img src="/assets/img/posts/ansibal.png" width="100%"/>](anible)
-
-- Install Ansible
-
-        yum install epel-release <br>
-        yum install ansible
-
-- Inventory Host
-
-       echo "ip-server-tomcat" >> /etc/ansible/hosts
-
-- For example:
-
-        cat <<EOF>/etc/ansible/hosts
-        [local]
-        127.0.0.1
-        [apiserver]
-        192.168.88.2
-        [jobserver]
-        192.168.89.100
-        192.168.89.101
-        [dbservers]
-        192.168.90.200
-        192.168.90.201
-        EOF
-
-- Struct call ans
-
-        # ansible [tên host] -m [tên module] -a [tham số truyền vào module]
-        # ansible [host name] -m [name module] -a [parameter passed to module]
-
-- Test ping to server
-
-        # ansible apiserver -m ping -u tuanda -k
-        SSH password: (nhập pass của host api)
-        192.168.88.2 | SUCCESS => {
-            "changed": false,
-            "ping": "pong"
-        }
-
-- Ansible playbook
-
-        cat << EOF > copywarfile.yml
-        - hosts: all
-        become: true
-        tasks:
-            - name: copywarfile
-            copy:
-                src: /opt/playbooks/webapp/target/webapp.war
-                dest: /opt/apache-tomcat-8.5.77/webapps
-        EOF
-
-- Check Ansible: `ansible all -m ping`
-
-        /etc/ansible/playbook copywarfile.yml
-
-## SonarQube
+### **`Step 2`** embed repo
 
 [<img src="/assets/img/posts/sonarqubeserver.png" width="100%"/>](sonarqube)
-.. Continoune
 
-## Create Key SSH
-
-> Generating a new SSH key and adding it to the ssh-agent
-
-    After you've checked for existing SSH keys, you can generate a new SSH key to use for authentication, then add it to the ssh-agent.
-
-- When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
-
-```
-    # ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-        or
-    # ssh-keygen <enter>
-```
-
-- At the prompt, type a secure passphrase. For more information, see "Working with SSH key passphrases."
-
-```
-    > Enter passphrase (empty for no passphrase): [Type a passphrase]
-    > Enter same passphrase again: [Type passphrase again]
-```
-
-- Adding your SSH key to the ssh-agent or ssh-server
-
-```
-    # ssh-copy-id [ip server []...] ]
-```
-
-## Author
+## **Author**
 
 ### **>>** **_[[Link Documents]](https://codeberg.org/nulldoot2k/Do_An_Tot_nghiep_2022)_** - **_WORD_** Do_An_Tot_nghiep_2022
 
-## Warning
+## **Warning**
 
 - If you don't have access then message me via: **_[Contact me](mailto:nulldoot2k@proton.me)_**
   - Title: Access JenkinsPorm
   - Content: your username codeberg
 - If you have an issue with a plugin in DATV, first you should report it to DATV to see if it's an issue with it.
 
-## Support
+## **Support**
 
 - Donate: VISA ViettinBank: 103868801400 - SWIFT/BIC Code: ICBVVNVXDDD
 
