@@ -88,7 +88,14 @@ Hôm nay chúng ta sẽ xem cách tạo một dự án DevOps đơn giản. Ở 
 
 - IP-Server-Tomcat:8090
 
-> Webserver Tomcat : IP-Server-Tomcat:8090/webapp
+> **`Webserver Tomcat : IP-Server-Tomcat:8090/webapp`**
+
+- Repo: [DemoJenkins Ci/Cd](https://codeberg.org/nulldoot2k/JenkinsPorm)
+
+```diff
+- Download Java and setup Env JAVA_HOME
++ Setup Page Manager Tomcat
+```
 
 ## Jenkins Server
 
