@@ -4,7 +4,6 @@ layout: page
 permalink: /Guide/
 ---
 
-
 ### devlopr - Styleguide
 
 <hr />
@@ -12,7 +11,6 @@ permalink: /Guide/
  <img src="/assets/img/styleguide.png" class="img-fluid">
 
 <p> Lets try the different text styles  <b> Bold </b> , <strong> Strong </strong>, <em> Emphasis </em>, <i> Italic </i> </p>
-
 
 <p> Now, lets try different heading styles : </p>
 
@@ -68,23 +66,11 @@ permalink: /Guide/
           <th scope="col">Heading</th>
           <th scope="col">Heading</th>
           <th scope="col">Heading</th>
-          <th scope="col">Heading</th>
-          <th scope="col">Heading</th>
-          <th scope="col">Heading</th>
-          <th scope="col">Heading</th>
-          <th scope="col">Heading</th>
-          <th scope="col">Heading</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
           <td>Cell</td>
           <td>Cell</td>
           <td>Cell</td>
@@ -94,21 +80,9 @@ permalink: /Guide/
           <td>Cell</td>
           <td>Cell</td>
           <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
-          <td>Cell</td>
           <td>Cell</td>
           <td>Cell</td>
           <td>Cell</td>
@@ -132,28 +106,27 @@ permalink: /Guide/
 
 <hr />
 
-
 <h3>YouTube Responsive Embed</h3>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bBpKMH3nBzE?rel=0&amp;controls=0&amp;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/bBpKMH3nBzE?rel=0&amp;controls=0&amp;showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <hr />
 
 <h3>Vimeo Responsive Embed</h3>
 
-<iframe src="https://player.vimeo.com/video/212114694?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="https://player.vimeo.com/video/212114694?title=0&amp;byline=0&amp;portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <hr />
 
 <h3 id="ted-responsive-embed">TED Responsive Embed</h3>
 
-<iframe src="https://embed.ted.com/talks/ted_halstead_a_climate_solution_where_all_sides_can_win" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+<iframe src="https://embed.ted.com/talks/ted_halstead_a_climate_solution_where_all_sides_can_win" width="100%" height="360" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
 
 <hr />
 
 <h3 id="twitch-responsive-embed">Twitch Responsive Embed</h3>
 
-<iframe src="https://player.twitch.tv/?autoplay=false&amp;video=v248755437" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://player.twitch.tv/?autoplay=false&amp;video=v248755437" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 
 <hr />
 
@@ -203,5 +176,3 @@ permalink: /Guide/
 <p><input type="text" placeholder="I'm an input field!" /></p>
 
 <hr />
-
-

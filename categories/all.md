@@ -1,8 +1,7 @@
 ---
 layout: page
-permalink: /blog/categories/
+permalink: /blog/categories
 ---
-
 
 <h3>  {{ page.title }} </h3>
 
@@ -18,11 +17,8 @@ permalink: /blog/categories/
       <h6 ><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h6>
     </article>
 
-
     {% endfor %}
 
   </div>
 {% endfor %}
 </div>
-
-

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Guides
-permalink: /blog/categories/sample_category
+title: Linux
+permalink: /blog/categories/linux
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
