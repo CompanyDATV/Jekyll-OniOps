@@ -95,9 +95,89 @@ permalink: /JenkinsForm
 
 <img width="100%" src="https://0x0.st/oufS.png" />
 
-### **`Step 2`** embed repo
+### **`Step 2`** Embed repo
+
+<img width="100%" src="https://0x0.st/ouyH.png" />
+
+```css
+	Description: des your repo
+	Github project: your name repo
+```
+
+### **`Step 3`** Webhook repo
+
+> Use Build Triggers
+
+- [x] Github hook trigger for GITScm polling
+- [x] Poll SCM
+
+  - Schedule : `H * * * *` --> des: time for build
+
+> `Note that`: We have to use Ip address public and Webhook access delivery like piture here!
+
+<img src="https://0x0.st/ouyq.png" width="100%" />
+
+```bash
+  Name: your name
+  Server URL and Alias URL: host jenkins we want connect to github server
+  Tick box Manage hooks and type user and password of github server to validate
+```
+
+- After, Github we need test delivery from github server with Webhook
+
+<img src="https://0x0.st/ouyP.png" width="100%"/>
+
+### **`Step 4`** Creat Token Test Sonar CI
 
 [<img src="/assets/img/posts/sonarqubeserver.png" width="100%"/>](sonarqube)
+
+### **`Step 5`** Write file jenkinsfile
+
+- `After we have installed the steps and entered this step 5, we have all the servers we need and the tools we need, now our job is to write a small script to optimize everything. the process into 1 build`
+
+```js
+pipeline {
+    agent any
+    environment {
+        PATH = "/opt/maven/apache-maven-3.6.3/bin:$PATH"
+    }
+    stages {
+        stage("checkout code") {
+            steps {
+                git credentialsId: 'JenkinsForm_codeberg', url: 'git@codeberg.org:nulldoot2k/JenkinsPorm.git'
+            }
+        }
+        stage("build code") {
+            steps {
+                sh "mvn clean install"
+            }
+        }
+        stage("SonarQube analysis") {
+            steps {
+                withSonarQubeEnv("sonarqube-8.9.8") {
+                    sh """mvn sonar:sonar \
+                    -Dsonar.projectKey=DemoJenkins \
+                    -Dsonar.host.url=http://192.168.56.33:9000 \
+                    -Dsonar.login=caf0b32a5dadd61104953d074ceea1e619646605"""
+                }
+            }
+        }
+        stage("deploy") {
+            steps {
+                sshagent(['deploy_user']) {
+                    sh "scp -o StrictHostKeyChecking=no webapp/target/webapp.war root@192.168.56.55:/opt/apache-tomcat-8.5.77/webapps"
+                }
+            }
+        }
+    }
+}
+```
+
+### **`Step 6`** Build Ci/Cd automatic
+
+<img src="https://0x0.st/ouy9.png" width="100%" />
+
+- `So we have finished building a simple DevOps CI/CD system with Jenkins`
 
 ## **Author**
 
