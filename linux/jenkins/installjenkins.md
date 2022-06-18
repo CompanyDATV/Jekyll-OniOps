@@ -2,7 +2,7 @@
 layout: linux
 title: "Install Here"
 thumbnail: /assets/img/posts/install.png
-permalink: /blog/JenkinsForm/install
+permalink: /JenkinsForm/install
 ---
 
 ## **Server Tomcat**

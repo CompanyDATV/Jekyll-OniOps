@@ -3,6 +3,7 @@ layout: linux
 title: "Learn Linux Basic Lesson 1"
 thumbnail: /assets/img/posts/Linuxbasic.png
 permalink: /blog/linux/1
+category: ["jekyll", "guides", "linux", "sample_category"]
 ---
 
 #### **`What is Root?`**
@@ -30,3 +31,8 @@ root All=(All) All
 
 user localhost= NOPASSWD: /sbin/poweroff
 ```
+
+## Course Linux
+
+- [Linux GUI](/blog/linux) : Linux Guild
+- [Lession 2](/blog/linux/2) : what is dir, folder ?

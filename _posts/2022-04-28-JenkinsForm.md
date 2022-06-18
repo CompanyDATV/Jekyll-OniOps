@@ -50,7 +50,7 @@ permalink: /JenkinsForm
   Mọi thứ đều là một quy trình thủ công. Nó sẽ tiêu tốn nhiều thời gian hơn. DevOps là một quy trình và nó bao
   gồm nhiều công cụ để tự động hóa quy trình và nó được sử dụng để giảm bớt công việc của nhà phát triển và nhóm vận hành.
 
-## **_[[HOME](/JenkinsForm)]_** • **_[[INSTALL](/blog/JenkinsForm/install)]_** • **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_**
+## **_[[HOME](/JenkinsForm)]_** • **_[[INSTALL](/JenkinsForm/install)]_** • **_[[AUTHOR](https://datv.nulldoot2k.xyz/JenkinsForm#author)]_**
 
 <details><summary> <b>Theme ShowCase!</b></summary>
 
