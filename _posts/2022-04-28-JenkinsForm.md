@@ -194,4 +194,4 @@ pipeline {
 
 - Donate: VISA ViettinBank: 103868801400 - SWIFT/BIC Code: ICBVVNVXDDD
 
-# LINK: (**[My channel](https://www.youtube.com/c/nulldoot)**) Youtube
+# LINK: (**[Video Jenkin DevOps Baisc](https://youtu.be/z6KcdSelj18)**) Youtube
