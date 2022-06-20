@@ -5,9 +5,9 @@ permalink: /gallery/
 ---
 
 
-    <div class="col-lg-8 offset-md-2">
+<div class="col-lg-8 offset-md-2">
 
-      <div class="row">
+  <div class="row">
     {% assign count = 0 %}
     {% assign align = "left" %}
     {% for gallery in site.data.galleries.overview %}
@@ -16,12 +16,14 @@ permalink: /gallery/
         <div class="card-title"> {{gallery.title}}</div>
         <div class="row">
 
-        <a href="{{ site.url }}{{ site.baseurl }}/gallery/{{ gallery.directory }}.html">
-          <img class="img-thumbnail" alt="{{ gallery.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/img/gallery/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
-        </a>
+          <a href="{{ site.url }}{{ site.baseurl }}/gallery/{{ gallery.directory }}.html">
+            <img class="img-thumbnail" alt="{{ gallery.title }}"
+              src="{{ site.url }}{{ site.baseurl }}/assets/img/gallery/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
+          </a>
         </div>
       </div>
-    {% if count == 1 %}</div>{% endif %}
+      {% if count == 1 %}
+    </div>{% endif %}
     {% assign count = count | plus: 1 %}
     {% assign align = "right" %}
     {% if count >= 2 %}
@@ -31,8 +33,8 @@ permalink: /gallery/
     {% endfor %}
 
     {% if count != 1 %}
-    </div>
-    {% endif %}
+  </div>
+  {% endif %}
 
-    </div>
+</div>
 </div>

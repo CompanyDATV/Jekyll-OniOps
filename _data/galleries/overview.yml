@@ -7,3 +7,14 @@
     sizes:
     - 1-thumbnail.jpg
     thumbnail: 1-thumbnail.jpg
+
+
+-
+  title: Beautiful
+  directory: beautiful
+  preview:
+    filename: 1.jpg
+    original: 1-thumbnail.jpg
+    sizes:
+    - 1-thumbnail.jpg
+    thumbnail: 1-thumbnail.jpg
