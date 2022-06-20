@@ -806,7 +806,7 @@ header {
 
 #author_projects {
   .project-img {
-    width: 300px;
+    width: 100%;
     height: 200px;
   }
 
@@ -820,8 +820,16 @@ header {
 }
 
 .company-logo {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 150px;
+}
+
+.card p {
+  color: #ffffffcc;
+}
+
+.card h1 {
+  font-weight: bold;
 }
 
 .author-profile-img {

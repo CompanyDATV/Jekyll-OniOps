@@ -90,7 +90,7 @@ author_project_details:
   - project_thumbnail: hack4r.PNG
     project_title: Hack4r
     project_description: A Platform built for Hackers and Penetration Testers
-    project_url: https://hack4r.com
+    project_url: https://www.hack4r.com
     visibility: true
 
 # social links

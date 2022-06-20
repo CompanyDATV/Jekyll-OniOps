@@ -9,7 +9,7 @@ layout: default
         <a href="/">
           <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" class="profile-img" />
         </a>
-        <h1 class="profile-name">{{ site.title }}</h1>
+        <h1 class="profile-name" style="font-weight: bold">{{ site.title }}</h1>
         <p class="profile-bio">{{ site.subtitle }}</p>
         {% if site.github_username %} {%- include github_follow_button.html -%}
         {% endif %}
@@ -64,6 +64,21 @@ layout: default
         {%- include author_skills.html -%}
       </div>
 
+      <div class="card">
+        <h1>Channel - Youtube</h1>
+        <img src="/assets/img/youtube.png" width="100%" />
+        <h3 style="
+            font-weight: bold;
+            margin-top: 20px;
+            display: block;
+            text-align: center;
+            color: red !important;
+            text-decoration: none;
+          ">
+          <a href="https://www.youtube.com/c/NullDoot">NullDoot2k</a>
+        </h3>
+      </div>
+
       {% if site.wakatime_username %}
       <div class="card">
         <h1>Coding Activity</h1>
@@ -75,13 +90,15 @@ layout: default
     <div class="col-lg-8">
       {% if site.author_bio %}
       <div class="card">
-        <h1 class="card-title">DATV - OniOps</h1>
-        <p>{{ site.author_bio }}</p>
-        <p>{{ site.author_info }}</p>
+        <h1 class="card-title" style="font-weight: bold; color: red !important">
+          DATV - OniOps
+        </h1>
+        <p style="color: #ffffffcc">{{ site.author_bio }}</p>
+        <p style="color: #ffffffcc">{{ site.author_info }}</p>
       </div>
       {% endif %} {% if site.show_author_project_details==true %}
       <div id="author_projects" class="card">
-        <h1 class="card-title">Projects</h1>
+        <h1 class="card-title" style="font-weight: bold">Projects</h1>
         <br />
         <!-- Project -->
         {% for project in site.author_project_details %} {% if
@@ -104,7 +121,7 @@ layout: default
       </div>
       {% endif %} {% if site.show_author_future == true %}
       <div class="card">
-        <h1 class="card-title">Future</h1>
+        <h1 class="card-title" style="font-weight: bold">Future</h1>
         <br />
         {% for future in site.author_future %} {% if future.visibility == true
         %}
@@ -138,12 +155,12 @@ layout: default
       </div>
       {% endif %} {% if site.show_author_work_experiences == true %}
       <div class="card">
-        <h1 class="card-title">Work Experience</h1>
+        <h1 class="card-title" style="font-weight: bold">Work Experience</h1>
         <br />
         {% for exp in site.author_work_experiences %} {% if exp.visibility ==
         true %}
-        <div class="row" style="margin-left: 20px">
-          <div class="col-md-2">
+        <div class="row" style="margin-left: 20px; margin-bottom: 20px">
+          <div class="col-md-4">
             <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}" class="company-logo" />
           </div>
           <div class="col-md-6">
@@ -157,12 +174,12 @@ layout: default
       </div>
       {% endif %} {% if site.show_author_education_details == true %}
       <div class="card">
-        <h1 class="card-title">Education</h1>
+        <h1 class="card-title" style="font-weight: bold">Education</h1>
         <br />
         {% for detail in site.author_education_details %} {% if
         detail.visibility == true %}
         <div class="row" style="margin-left: 20px">
-          <div class="col-md-2">
+          <div class="col-md-4">
             <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}" class="company-logo" />
           </div>
           <div class="col-md-6">
