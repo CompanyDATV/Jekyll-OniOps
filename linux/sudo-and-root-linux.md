@@ -1,9 +1,9 @@
 ---
 layout: linux
-title: "Learn Linux Basic Lesson 1"
-thumbnail: /assets/img/posts/Linuxbasic.png
+title: "What is Sudo and Root"
+<!-- thumbnail: /assets/img/posts/Linuxbasic.png -->
 permalink: /blog/linux/1
-category: ["jekyll", "guides", "linux", "sample_category"]
+category: ["linux"]
 ---
 
 #### **`What is Root?`**
@@ -36,3 +36,4 @@ user localhost= NOPASSWD: /sbin/poweroff
 
 - [Linux GUI](/blog/linux) : Linux Guild
 - [Lession 2](/blog/linux/2) : what is dir, folder ?
+- [Lession 3](/blog/linux/3) : what is putty, ssh ?
