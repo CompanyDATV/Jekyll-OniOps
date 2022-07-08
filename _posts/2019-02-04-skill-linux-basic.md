@@ -25,6 +25,7 @@ usemathjax: false
 
 #### **`Link Course Lession`**
 
-- [Lession 1](/blog/linux/1) : what is root, sudo ??
-- [Lession 2](/blog/linux/2) : what is dir, folder ??
-- [Lession 3](/blog/linux/3) : what is ssh and putty ??
+- [Lession 1](/blog/linux/sudo-and-root-linux) : Sudo and Root ?
+- [Lession 2](/blog/linux/dir-and-folder-linux) : Dir and folder ?
+- [Lession 3](/blog/linux/putty-and-ssh-linux) : Putty and ssh ?
+- [Lession 4](/blog/linux/change-or-mount-disk-linux) : Storage media

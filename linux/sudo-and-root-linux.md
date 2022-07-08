@@ -2,7 +2,7 @@
 layout: linux
 title: "What is Sudo and Root"
 <!-- thumbnail: /assets/img/posts/Linuxbasic.png -->
-permalink: /blog/linux/1
+permalink: /blog/linux/sudo-and-root-linux
 category: ["linux"]
 ---
 
@@ -32,8 +32,9 @@ root All=(All) All
 user localhost= NOPASSWD: /sbin/poweroff
 ```
 
-## Course Linux
+#### **`Link Course Lession`**
 
-- [Linux GUI](/blog/linux) : Linux Guild
-- [Lession 2](/blog/linux/2) : what is dir, folder ?
-- [Lession 3](/blog/linux/3) : what is putty, ssh ?
+- [Linux GUI](/blog/linux) : Linux Course Guild
+- [Lession 2](/blog/linux/dir-and-folder-linux) : Dir and folder ?
+- [Lession 3](/blog/linux/putty-and-ssh-linux) : Putty and ssh ?
+- [Lession 4](/blog/linux/change-or-mount-disk-linux) : Storage media

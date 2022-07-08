@@ -2,7 +2,7 @@
 layout: linux
 title: "What is Putty and SSH"
 <!-- thumbnail: /assets/img/posts/Linuxbasic.png -->
-permalink: /blog/linux/3
+permalink: /blog/linux/putty-and-ssh-linux
 category: ["linux"]
 ---
 ### What is **`Putty`**
@@ -108,6 +108,7 @@ at top, then click Export OpenSSH key. Give it a name like private.key.
 
 #### **`Link Course Lession`**
 
-- [Linux GUI](/blog/linux) : Linux Guild
-- [Lession 1](/blog/linux/1) : what is root, sudo ??
-- [Lession 2](/blog/linux/2) : what is dir, folder ??
+- [Linux GUI](/blog/linux) : Linux Course Guild
+- [Lession 1](/blog/linux/sudo-and-root-linux) : Sudo and Root ?
+- [Lession 2](/blog/linux/dir-and-folder-linux) : Dir and Folder ?
+- [Lession 4](/blog/linux/change-or-mount-disk-linux) : Storage media
