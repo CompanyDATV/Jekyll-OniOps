@@ -58,7 +58,7 @@ The SSH protocol (also referred to as Secure Shell) is a method for secure remot
 For additional security, you can use a public/private key pair to login. If you disable password authentication, your sshd setup will be more secure.
 
   1. In the parameters field at the bottom, select the type of key to generate. This guide uses Ed25519.
-  2. Click Generate
+  2. Click Generate <br>
   <img src="https://wiki.ircnow.org/uploads/PuTTY/puttygen-random.png" style="max-width:100%;" />
 
   3. **`Optional`**: In Key passphrase, provide a passphrase and write it down securely. 
