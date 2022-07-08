@@ -190,6 +190,7 @@ Number  Start   End    Size   File system  Name                  Flags
 Finally, here are some resources for more information on partitioning:
 #### **`Link Course Lession`**
 
+## - **[Mount Disk](https://youtu.be/vTMPG1XTOw4)** : Watching videos on Youtube by me.
 - [Linux GUI](/blog/linux) : Linux Course Guild
 - [Lession 1](/blog/linux/sudo-and-root-linux) : Sudo and Root ?
 - [Lession 2](/blog/linux/dir-and-folder-linux) : Dir and folder ?
