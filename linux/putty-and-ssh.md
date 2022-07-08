@@ -59,7 +59,6 @@ For additional security, you can use a public/private key pair to login. If you 
 
   1. In the parameters field at the bottom, select the type of key to generate. This guide uses Ed25519.
   2. Click Generate
-
   <img src="https://wiki.ircnow.org/uploads/PuTTY/puttygen-random.png" style="max-width:100%;" />
 
   3. **`Optional`**: In Key passphrase, provide a passphrase and write it down securely. 
@@ -75,6 +74,37 @@ at top, then click Export OpenSSH key. Give it a name like private.key.
 - You have now generated your public and private key! 
 
 2. Adding the Public Key
+
+  1. Connect with PuTTY using a password as described at top.
+  2. Edit ~/.ssh/authorized_keys:
+  <img src="https://wiki.ircnow.org/uploads/PuTTY/putty-editauthorized.png" style="max-width:100%;" />
+
+   1. Select the public key from PuTTyGen, from the field Public key for pasting into OpenSSH authorized keys file. Type ctrl+c to copy.
+  <img src="https://wiki.ircnow.org/uploads/PuTTY/putty-copyauthorized.png" style="max-width:100%;" />
+   2. Paste the key into ~/.ssh/authorized_keys by pressing Shift+[Ins].
+   3. Alternatively, you can get the public key from the .ppk you created earlier.
+    Open it with Notepad. It should look like this: 
+
+    ---- BEGIN SSH2 PUBLIC KEY ----
+    Comment: "ed25519-key-20210809"
+    AAAAC3NzaC1lZDI1NTE5AAAAINCB6GpCoQPG4byfLwqHyA2SMyTV7RjfVw+bqO3h
+    fTDF
+    ---- END SSH2 PUBLIC KEY ----
+
+    Ignore the comment lines, copying only the key; join the lines together, and add ssh-ed25519 in front:
+
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINCB6GpCoQPG4byfLwqHyA2SMyTV7RjfVw+bqO3hfTDF
+
+> Logging in with Private Key 
+
+  1. Open PuTTY
+  2. Go to Connection > SSH > Auth
+  3. In Private key file for authentication, click Browse, 
+  and load your private key (hint: it ends in .ppk).
+
+  - Click Session and fill in Hostname as described in the **[PuTTY connect guide](/blog/linux/3?what-is-putty)**. Then, click Open.
+  - If you used a passphrase for the key, type it in.
+  <img src="https://wiki.ircnow.org/uploads/PuTTY/putty-keypassphrase.png" style="max-width:100%;" />
 
 #### **`Link Course Lession`**
 
