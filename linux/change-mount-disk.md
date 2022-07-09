@@ -95,6 +95,9 @@ The line consists of six fields:
 |rv          |Read-only                                   |
 |suid        |SUID access is okay                         |
 
+
+# **`Resolved According to Me`** 
+
 Where should you force a nosuid mount? Anywhere that local or remote users 
 might be up to no good. 
 - For example, suppose that you anticipate providing 
@@ -120,6 +123,12 @@ UUID=ACBF-08C8  /boot/efi       vfat    umask=0077      0       1
 UUID=01D6236EF70FF080 /mnt/Data ntfs defaults,x-gvfs-show 0 0
 UUID=E8F80524F804F31C /mnt/Learn ntfs defaults,x-gvfs-show 0 0
 ```
+
+- Look at the last 2 lines, I have concatenated `UUID` because my directory drive parameter maps 
+them to the directory drive I created earlier `/mnt/...` 
+besides the default parameters will show display drive parameters outside task
+
+- Where do I get those stats, see how I did it below
 
 > **`Lsblk -l`** check list - path /
 
