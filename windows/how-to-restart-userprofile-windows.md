@@ -31,16 +31,33 @@ You can change its location to another folder. Let's see how it can be done.
 1. Open File Explorer
 
 2. Type or copy-paste the following in the address bar: `%userprofile%`
-<img src="/assets/img/posts/windows-explorer.png" width="100%" />
+<img src="/assets/img/posts/windows-explorer.png" width="100%" height=280 class="img-windows-explorer-1"/>
 
-3. Press the Enter key on the keyboard. You user profile folder will be opened.
-<img src="/assets/img/posts/windows-explorer-1.png" width="100%" />
+1. Press the Enter key on the keyboard. You user profile folder will be opened.
+<img class="img-windows-explorer" src="/assets/img/posts/windows-explorer-1.png" width="100%" height="500"/>
 See the Desktop folder.
 
-4. Right click the Desktop folder and select Properties.
-<img src="/assets/img/posts/windows-explorer-2.png" width="100%" />
+<!-- css image -->
+<style>
+@media only screen and (max-width: 768px) {
+    .img-windows-explorer {
+        width: 100%;
+        height: 230px;
+    }
+    .img-windows-explorer-2 {
+        width: 100%;
+        height: 230px;
+    }
+    .img-windows-explorer-1 {
+        height: 100px;
+    }
+}
+</style>
 
-5. In Properties, go to the Location tab, and click on the Move button or Restore Default.
+1. Right click the Desktop folder and select Properties.
+<img class="img-windows-explorer-2" src="/assets/img/posts/windows-explorer-2.png" width="100%" height="500" />
+
+5. In Properties, go to the Location tab, and click on the Move button or Restore Default. <br>
 <img src="/assets/img/posts/windows-explorer-3.png" width="50%" height="50%"/>
 
 6. click Ok and successful
@@ -56,6 +73,8 @@ This will allow you to save space on the system drive, which can be particularly
 
 - [Windows 11 help](https://www.computerhope.com/windows-11.htm)
 
-- [How to Move the Desktop Folder in Windows 10](/blog/windows/restart-userprofile-windows)
+- [How to Move the Desktop Folder in Windows](/blog/windows/restart-userprofile-windows)
+
+- [Disabling Admin Permission Windows](/blog/windows/Disabling-Admin-Permission-Windows)
 
 - continue....
