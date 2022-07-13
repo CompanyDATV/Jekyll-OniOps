@@ -12,3 +12,4 @@ category: ["linux"]
 - [Lession 1](/blog/linux/sudo-and-root-linux) : Sudo and Root ?
 - [Lession 3](/blog/linux/putty-and-ssh-linux) : Putty and Ssh ?
 - [Lession 4](/blog/linux/change-or-mount-disk-linux) : Storage media
+- [Lession 5](/blog/linux/blog/linux/trick-mop) : Trick Beginer Mop ?

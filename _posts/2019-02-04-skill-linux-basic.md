@@ -29,3 +29,4 @@ usemathjax: false
 - [Lession 2](/blog/linux/dir-and-folder-linux) : Dir and folder ?
 - [Lession 3](/blog/linux/putty-and-ssh-linux) : Putty and ssh ?
 - [Lession 4](/blog/linux/change-or-mount-disk-linux) : Storage media
+- [Lession 5](/blog/linux/trick-mop) : Trick Beginer Mop Linux

@@ -112,3 +112,4 @@ at top, then click Export OpenSSH key. Give it a name like private.key.
 - [Lession 1](/blog/linux/sudo-and-root-linux) : Sudo and Root ?
 - [Lession 2](/blog/linux/dir-and-folder-linux) : Dir and Folder ?
 - [Lession 4](/blog/linux/change-or-mount-disk-linux) : Storage media
+- [Lession 5](/blog/linux/blog/linux/trick-mop) : Trick Beginer Mop ?

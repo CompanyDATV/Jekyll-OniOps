@@ -204,3 +204,4 @@ Finally, here are some resources for more information on partitioning:
 - [Lession 1](/blog/linux/sudo-and-root-linux) : Sudo and Root ?
 - [Lession 2](/blog/linux/dir-and-folder-linux) : Dir and folder ?
 - [Lession 3](/blog/linux/putty-and-ssh-linux) : Putty and ssh ?
+- [Lession 4](/blog/linux/blog/linux/trick-mop) : Trick Beginer Mop ?
