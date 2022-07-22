@@ -62,8 +62,10 @@ $ git commit # Record the pristine state as the first commit
 
 #### **`Link Course Lession`**
 
-- [Create Repo](/blog/git/git-init) : Create Repository Git
-- [Lession 1](/blog/linux/sudo-and-root-linux) : Sudo and Root ?
+- [Create Repo](/blog/git/git-create-repository) : Create Repository Git
+- [Git Actions](/blog/git/git-actions) : Github Actions by me
+- [About Git](blog/git) : What is About Git
+- [Reference from Github page source](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) : Github Action Source Google
 
 
 <style>

@@ -36,7 +36,7 @@ Join with me by IRC*, I will recommend this subordinate!!!
 
 <h3>Upload Hidden</h3>
 
-    Upload your files anonymously and free on AnonFiles <br>
+    Upload your files anonymously and free on AnonFiles
     We offer you 20 GB filesize limit and unlimited bandwidth.
 
 > Link : **[Upload Anonops](https://anonfiles.com)**
@@ -51,7 +51,7 @@ Join with me by IRC*, I will recommend this subordinate!!!
 
 > Link **[Radio AnonOps](https://radio.anonops.com/)**
 
-# How To Join Us
+# **`How To Join Us`**
 
 <h3>(Tor + browser) - browser = Tor!</h3>
 
@@ -60,7 +60,7 @@ Join with me by IRC*, I will recommend this subordinate!!!
   ex: **(C:/User/ADMIN/Desktop/Tor Browser/Browser/TorBrowser/Tor)** and execute Tor binary with **-service install** as parameter (just once).
 
 ```diff
-$ ./tor.exe -service install
+$ tor.exe -service install
 Running on a Post-Win2K OS, so we'll assume that the LocalService account exists.
 IMPORTANT NOTE:
     The Tor service will run under the account "NT AUTHORITY\LocalService".  This means
@@ -78,6 +78,7 @@ Note: run cmd with adminis...
   [<img src="https://user-images.githubusercontent.com/67037335/165703689-05ce317b-8fd0-48d2-88a9-42a94c864ed7.png" width="100%"/>](anonops)
 
 - Please make sure Tor Win32 Service is started and running, so we will able to use it with HexChat IRC client.
+- If error when start: Click Log On ==> Click Local System Account and Apply to Ok
 
 If you want to check the service work or not, you can use curl command to check (if you have curl installed):
 
@@ -101,15 +102,10 @@ if you don’t have account then you need to register because it prerequisite to
 
 Just login as usual:
 
-```html
-/nick
-<insert_your_username>
-  /msg NickServ REGISTER
-  <insert_your_password>
-    <insert_your_fake_email>
-      /msg NickServ IDENTIFY
-      <insert_your_password></insert_your_password></insert_your_fake_email></insert_your_password
-></insert_your_username>
+```js
+  /nick <insert_your_username> 
+  /msg NickServ REGISTER <insert_your_password> <insert_your_fake_email>
+  /msg NickServ IDENTIFY <insert_your_password>
 ```
 
 Successfuly log in? OK, then open CMD (i prefer to use git-bash actually) and type
@@ -146,8 +142,11 @@ Email Address []:
 When finish, find the cert fingerprint and copy thus 40 chars output using command like example below:
 
 ```html
-$ openssl x509 -in ./client.pem -outform der | sha1sum -b | cut -d' ' -f1
-12345bd20a7c7dcm123453e1e61234588f412345
+$ openssl x509 -in client.pem -noout -fingerprint -sha512 | awk -F= '{gsub(":",""); print tolower ($2)}'
+
+===> e54cf5996be42d101f35c15670343c281746ee4ca6f65337d1e3bbc79d961f62c44633e8aa0e56e4bc739acc35560e2dd68ca76f3680f75a7ada882d...
+
+insert_cert_fingerprint is e54cf5996be42d101f35c15.....
 ```
 
 - Go back to your HexChat IRC client and add you cert fingerprint
@@ -157,9 +156,9 @@ $ openssl x509 -in ./client.pem -outform der | sha1sum -b | cut -d' ' -f1
 /msg NiclServ CERT LIST
 ```
 
-Now let set our HEXCHAT to use proxy via HexChat (setting-> preference-> Network and Network setup).
+Now let set our HEXCHAT to use proxy via HexChat (`setting`-> `preference`-> `Network` and `Network setup`).
 
-Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as localhost or 127.0.0.1. Then press OK to comfirm.
+Set proxy port to listen on `9050` and use proxy type `SOCK5`. For hostname set as `localhost` or `127.0.0.1`. Then press OK to comfirm.
 
 - Open network service menus (ctrl+S) and now add new server name. Lets put as “Server-TOR” then press OK. Click on “Freenode-TOR” and press Edit button.
   [<img src="https://i.vgy.me/TEeSb7.png#center" width="100%"/>](anonops)
@@ -169,7 +168,23 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
 - We are almost done, now just close everything and exit HexChat. Start (open) HexChat again and try connect to Server-TOR
 - Now your IP are spoofed on Tor network. Let me know if you have some error or problem :)
 
-# **Setting <3**
+# **`Setting to Connect <3`**
+
+- irc `DATV`: `libera75jm6of4wxpxt4aynol3xjmbtxgfyjpu34ss4d7r7q2v5zrpyd.onion`
+
+  > Use SSL for all the servers on this Network
+
+  > Accept invalid SSL certificate
+
+  > nickname + username : <your_name>
+
+  > Login_method : SASL EXTERNAL (Cert)
+
+  > password: insert_your_password
+
+  > UTF-8 (Unicode)
+
+## **Server Another**
 
 - irc 2600net: irc.2600.net/+6697
 
@@ -279,7 +294,7 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
     - Type : SOCKS5
     - Use proxy for: ALL connections
 
-- like that:
+- `like that`:
   [<img src="https://user-images.githubusercontent.com/67037335/166261925-927a1d76-a678-4b66-b2e1-90e13d2a5abe.png" width="100%"/>](anonops)
 
 # **Study Try Hard - COURSE AnonOps**
@@ -295,7 +310,7 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
 
 - Almost --> Tools for you!!!
 
-```js
+```css
     https://portswigger.net/web-security/ssrf
 
     https://book.hacktricks.xyz/pentesting-web/ssrf-server-side-request-forgery
@@ -338,5 +353,5 @@ Set proxy port to listen on 9050 and use proxy type SOCK5. For hostname set as l
 
 # Good luck :)
 
-- Tutorial **_[Follow me](https://www.youtube.com/)_** by channel youtube!!!
-- Follow Me **_[It's About Me](https://linktr.ee/nulldoot)_**
+- Tutorial **_[Follow me](https://www.youtube.com/c/NullDoot)_** by channel youtube!!!
+- Follow Me **_[It's About Me](https://withkoji.com/@nulldoot2k)_**

@@ -70,8 +70,10 @@ jobs:
 
 #### **`Link Course Lession`**
 
-- [Create Repo](/blog/git/git-init) : Create Repository Git
-- [Reference from Github page source](/blog/linux/sudo-and-root-linux) : Github Action Source Google
+- [Create Repo](/blog/git/git-create-repository) : Create Repository Git
+- [Git Actions](/blog/git/git-actions) : Github Actions by me
+- [About Git](blog/git) : What is About Git
+- [Reference from Github page source](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) : Github Action Source Google
 
 
 <style>
